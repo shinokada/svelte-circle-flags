@@ -1,9 +1,9 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags1.png" />
+<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags1.webp" />
 
-<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags2.png" />
+<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags2.webp" />
 
-<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags3.png" />
+<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags3.webp" />
 </p>
 
 # Svelte-Circle-Flags
