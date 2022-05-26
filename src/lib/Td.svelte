@@ -1,0 +1,19 @@
+<script>
+	export let size = '24';
+	export let ariaLabel = 'flag of td';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 512 512"
+	style="border-radius:50%"
+	><path fill="#ffda44" d="M167 0h178l25.9 252.3L345 512H167l-29.8-253.4z" /><path
+		fill="#026"
+		d="M0 0h167v512H0z"
+	/><path fill="#d80027" d="M345 0h167v512H345z" /></svg
+>

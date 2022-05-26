@@ -1,0 +1,19 @@
+<script>
+	export let size = '24';
+	export let ariaLabel = 'flag of cg';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 512 512"
+	style="border-radius:50%"
+	><path fill="#ffda44" d="M384 0h128v128L352 352 128 512H0V384l160-224Z" /><path
+		fill="#6da544"
+		d="M0 384 384 0H0Z"
+	/><path fill="#d80027" d="M512 128 128 512h384z" /></svg
+>

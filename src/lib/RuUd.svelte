@@ -1,0 +1,22 @@
+<script>
+	export let size = '24';
+	export let ariaLabel = 'flag of ru ud';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 512 512"
+	style="border-radius:50%"
+	><path fill="#eee" d="M160 0h192l32 256-32 256H160l-32-256Z" /><path
+		fill="#333"
+		d="M0 0h160v512H0Z"
+	/><path
+		fill="#d80027"
+		d="M352 0h160v512H352ZM229 176l107 107H176l107-107v160L176 229h160L229 336Z"
+	/></svg
+>

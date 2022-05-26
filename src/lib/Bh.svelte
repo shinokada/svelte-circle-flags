@@ -1,0 +1,19 @@
+<script>
+	export let size = '24';
+	export let ariaLabel = 'flag of bh';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 512 512"
+	style="border-radius:50%"
+	><path fill="#eee" d="M0 0h182.5l88.1 268.5-88 243.5H0z" /><path
+		fill="#d80027"
+		d="m182.5 0-82.3 42.7 82.3 42.7-82.3 42.6 82.3 42.7-82.3 42.7 82.3 42.6-82.3 42.7 82.3 42.7-82.3 42.6 82.3 42.7-82.3 42.7 82.3 42.6H512V0H182.5z"
+	/></svg
+>

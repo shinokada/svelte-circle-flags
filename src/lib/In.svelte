@@ -1,0 +1,29 @@
+<script>
+	export let size = '24';
+	export let ariaLabel = 'flag of in';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 512 512"
+	style="border-radius:50%"
+	><path fill="#eee" d="m0 160.3 256-32 256 32v192l-256 32-256-32z" /><path
+		fill="#ff9811"
+		d="M0-.3h512v160.6H0Z"
+	/><path fill="#6da544" d="M0 352.3h512v159.9H0Z" /><circle
+		cx="256"
+		cy="256"
+		r="72"
+		fill="#0052b4"
+	/><circle cx="256" cy="256" r="48" fill="#eee" /><circle
+		cx="256"
+		cy="256"
+		r="24"
+		fill="#0052b4"
+	/></svg
+>

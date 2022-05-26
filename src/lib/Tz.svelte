@@ -1,0 +1,22 @@
+<script>
+	export let size = '24';
+	export let ariaLabel = 'flag of tz';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 512 512"
+	style="border-radius:50%"
+	><path
+		fill="#ffda44"
+		d="M401.8 0H449l63 63v47.2L347.7 336.3 110.2 512H63L0 449v-47.2l167.1-238.6z"
+	/><path fill="#333" d="M0 512v-63L449 0h63v63L63 512z" /><path
+		fill="#338af3"
+		d="M110.2 512 512 110.2V512z"
+	/><path fill="#6da544" d="M0 401.8 401.8 0H0z" /></svg
+>
