@@ -1,10 +1,11 @@
-# Svelte-Circle-Flags
-
-[![npm version](https://badgen.net/npm/v/svelte-circle-flags)](https://www.npmjs.com/package/svelte-circle-flags)
-[![license](https://badgen.net/npm/license/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags/blob/main/LICENSE)
-[![downloads](https://badgen.net/npm/dm/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags)
-
-[Svelte-Circle-Flags](https://shinokada.github.io/svelte-circle-flags/)
+<p align="center">
+<h1 align="center">Svelte-Circle-Flags</h1>
+<a href="https://shinokada.github.io/svelte-circle-flags/">Svelte-Circle-Flags</a>
+<a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-circle-flags" alt="npm"></a>
+<a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
+<a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-circle-flags" alt="License"></a>
+<a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow"><img src="https://img.shields.io/npm/dw/svelte-circle-flags.svg" alt="npm"></a>
+</p>
 
 330+ SVG icons from Circle-Flags
 
