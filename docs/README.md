@@ -1,3 +1,9 @@
+# Svelte-Circle-Flags
+
+[![npm version](https://badgen.net/npm/v/svelte-circle-flags)](https://www.npmjs.com/package/svelte-circle-flags)
+[![license](https://badgen.net/npm/license/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags/blob/main/LICENSE)
+[![downloads](https://badgen.net/npm/dm/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags)
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags1.webp" />
 
@@ -6,17 +12,15 @@
 <img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags3.webp" />
 </p>
 
-# Svelte-Circle-Flags
-
-[![npm version](https://badgen.net/npm/v/svelte-circle-flags)](https://www.npmjs.com/package/svelte-circle-flags)
-[![license](https://badgen.net/npm/license/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags/blob/main/LICENSE)
-[![downloads](https://badgen.net/npm/dm/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags)
-
-- [Circle-Flags](https://github.com/HatScripts/circle-flags)
-
 ## REPL
 
 [REPL](https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8?version=3.48.0)
+
+## Installation
+
+```sh
+npm i -D svelte-circle-flags
+```
 
 ## Icon Names
 
@@ -26,12 +30,6 @@
 
 Most of the flags follow the ISO 3166 country codes.
 [ISO 3166 Country Codes](https://github.com/shinokada/svelte-circle-flags/blob/main/iso-3166-country-codes.md)
-
-## Installation
-
-```sh
-npm i -D svelte-circle-flags
-```
 
 ## Size
 
