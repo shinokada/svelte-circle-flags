@@ -1,7 +1,5 @@
-<p align="center">
 <h1 align="center">Svelte-Circle-Flags</h1>
-<a href="https://shinokada.github.io/svelte-circle-flags/">Svelte-Circle-Flags</a>
-</p>
+<a  align="center" href="https://shinokada.github.io/svelte-circle-flags/">Svelte-Circle-Flags</a>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-circle-flags" alt="npm"></a>
