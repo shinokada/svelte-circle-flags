@@ -4,6 +4,9 @@
 [![license](https://badgen.net/npm/license/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags/blob/main/LICENSE)
 [![downloads](https://badgen.net/npm/dm/svelte-circle-flags)](https://github.com/shinokada/svelte-circle-flags)
 
+
+330+ SVG icons from Circle-Flags
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags1.webp" />
 
