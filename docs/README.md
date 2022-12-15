@@ -1,7 +1,8 @@
 <h1 align="center">Svelte-Circle-Flags</h1>
-<a  align="center" href="https://shinokada.github.io/svelte-circle-flags/">Svelte-Circle-Flags</a>
-
 <p align="center">
+<a href="https://shinokada.github.io/svelte-circle-flags/">Svelte-Circle-Flags</a>
+</p>
+
 <a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-circle-flags" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
 <a href="http://www.apache.org/licenses/" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-circle-flags" alt="License"></a>
