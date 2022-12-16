@@ -22,7 +22,7 @@
 
 ## REPL
 
-[REPL](https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8?version=3.48.0)
+[REPL](https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8)
 
 ## Installation
 
