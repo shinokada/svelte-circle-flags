@@ -1,6 +1,6 @@
 <h1 align="center">Svelte-Circle-Flags</h1>
 <p align="center">
-<a href="https://shinokada.github.io/svelte-circle-flags/">Svelte-Circle-Flags</a>
+<a href="https://svelte-circle-flags.codewithshin.com/">Svelte-Circle-Flags</a>
 </p>
 
 <p align="center">
