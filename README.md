@@ -1,4 +1,4 @@
-<h1 align="center">Svelte-Circle-Flags</h1>
+<h1 align="center">Svelte Circle Flags</h1>
 <p align="center">
 <a href="https://svelte-circle-flags.codewithshin.com/">Svelte-Circle-Flags</a>
 </p>
@@ -33,7 +33,7 @@ npm i -D svelte-circle-flags
 
 ## Icon Names
 
-[Icon list](https://github.com/shinokada/svelte-circle-flags/blob/main/icon-list.md)
+[Icon list](/icon-list.md)
 
 ## ISO 3166 Country Codes
 
