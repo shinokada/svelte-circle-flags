@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/shinokada/svelte-circle-flags/compare/v0.1.7...v0.1.8) (2023-01-30)
+
+
+### Features
+
+* add pwa ([28965fa](https://github.com/shinokada/svelte-circle-flags/commit/28965fadf9214152512074f8a7a3b97b9efd4288))
+
+
+### Bug Fixes
+
+* icon list and version ([3a1067a](https://github.com/shinokada/svelte-circle-flags/commit/3a1067a219df328f56fc1cc15f7da6c2e6e273f7))
+* icon list link and verion update ([d1e76d0](https://github.com/shinokada/svelte-circle-flags/commit/d1e76d04892d0032d3a39745ee14cac7ca444159))
+* root color css ([b717a45](https://github.com/shinokada/svelte-circle-flags/commit/b717a4552bbdc68c55296a146c1b702b970f84d9))
+* service-worker.js ([643145d](https://github.com/shinokada/svelte-circle-flags/commit/643145d3c9fbbba2d7a73831ed3ef6189a5d1a17))
+
 ### [0.1.7](https://github.com/shinokada/svelte-circle-flags/compare/v0.1.6...v0.1.7) (2022-12-25)
 
 
