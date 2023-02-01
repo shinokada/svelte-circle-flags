@@ -14,11 +14,7 @@
 330+ SVG icons from Circle-Flags
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags1.webp" />
-
-<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags2.webp" />
-
-<img src="https://raw.githubusercontent.com/shinokada/svelte-circle-flags/main/static/images/circle-flags3.webp" />
+<img src="/static/images/circle-flags-optimized-650-1050.png" width="650" />
 </p>
 
 ## REPL
@@ -31,9 +27,13 @@
 npm i -D svelte-circle-flags
 ```
 
-## Icon Names
+## Icon names
 
 [Icon list](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## ISO 3166 Country Codes
 
@@ -159,7 +159,8 @@ All the credits goes to [Circle-Flags](https://github.com/HatScripts/circle-flag
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
 
-## Experience lightning-fast browsing and offline access with Our PWA
+## PWA: Fast & Offline
 
 This website can be downloaded and installed on your device for offline access as a Progressive Web App.
+
 To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
