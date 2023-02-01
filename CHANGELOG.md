@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/shinokada/svelte-circle-flags/compare/v0.1.9...v0.1.10) (2023-02-01)
+
+
+### Bug Fixes
+
+* badges target, height, and add links to crossOriginLinks ([ccbd0c8](https://github.com/shinokada/svelte-circle-flags/commit/ccbd0c801eaec16ec9e45002e7bf566bc1889779))
+
 ### [0.1.9](https://github.com/shinokada/svelte-circle-flags/compare/v0.1.8...v0.1.9) (2023-02-01)
 
 
