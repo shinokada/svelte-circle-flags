@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.9](https://github.com/shinokada/svelte-circle-flags/compare/v0.1.8...v0.1.9) (2023-02-01)
+
+
+### Bug Fixes
+
+* add optimized image ([d1b2bfc](https://github.com/shinokada/svelte-circle-flags/commit/d1b2bfcf5f14a988242477af52736027b8f3f431))
+* manifest name update ([b9608a3](https://github.com/shinokada/svelte-circle-flags/commit/b9608a3de3eafe577cec2ab1f993b8586ea206ff))
+
 ### [0.1.8](https://github.com/shinokada/svelte-circle-flags/compare/v0.1.7...v0.1.8) (2023-01-30)
 
 
