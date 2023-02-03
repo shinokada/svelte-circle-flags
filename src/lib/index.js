@@ -1,662 +1,361 @@
-import Dj from './Dj.svelte';
-import Sv from './Sv.svelte';
-import Gt from './Gt.svelte';
-import Cg from './Cg.svelte';
-import Ph from './Ph.svelte';
-import Aw from './Aw.svelte';
-import Bi from './Bi.svelte';
-import Eh from './Eh.svelte';
-import GbEng from './GbEng.svelte';
-import Vg from './Vg.svelte';
-import GbOrk from './GbOrk.svelte';
-import ChGr from './ChGr.svelte';
-import Be from './Be.svelte';
-import ShHl from './ShHl.svelte';
-import Uy from './Uy.svelte';
-import Sz from './Sz.svelte';
-import Tw from './Tw.svelte';
-import Ck from './Ck.svelte';
-import Ua from './Ua.svelte';
-import FrBre from './FrBre.svelte';
-import Earth from './Earth.svelte';
-import To from './To.svelte';
-import Sb from './Sb.svelte';
-import Occitania from './Occitania.svelte';
-import Tc from './Tc.svelte';
-import Gl from './Gl.svelte';
-import It82 from './It82.svelte';
-import Sn from './Sn.svelte';
-import Ao from './Ao.svelte';
-import EsGa from './EsGa.svelte';
-import Ke from './Ke.svelte';
-import Hausa from './Hausa.svelte';
-import Mf from './Mf.svelte';
-import Pt30 from './Pt30.svelte';
-import InGj from './InGj.svelte';
-import RuBa from './RuBa.svelte';
-import Ki from './Ki.svelte';
-import Nl from './Nl.svelte';
-import Mr from './Mr.svelte';
-import BqBo from './BqBo.svelte';
-import GeAb from './GeAb.svelte';
-import Im from './Im.svelte';
-import GbNir from './GbNir.svelte';
-import Hu from './Hu.svelte';
-import Mh from './Mh.svelte';
-import Je from './Je.svelte';
-import Md from './Md.svelte';
-import Nz from './Nz.svelte';
-import GbWls from './GbWls.svelte';
-import Pt20 from './Pt20.svelte';
-import Kg from './Kg.svelte';
-import United_nations from './United_nations.svelte';
-import Io from './Io.svelte';
-import EsIb from './EsIb.svelte';
-import South_ossetia from './South_ossetia.svelte';
-import Lr from './Lr.svelte';
-import InAs from './InAs.svelte';
-import CnXj from './CnXj.svelte';
-import RuCu from './RuCu.svelte';
-import Mp from './Mp.svelte';
-import Sx from './Sx.svelte';
-import Ci from './Ci.svelte';
-import Pf from './Pf.svelte';
-import Ve from './Ve.svelte';
-import RuKo from './RuKo.svelte';
-import UsHi from './UsHi.svelte';
-import Bg from './Bg.svelte';
-import Au from './Au.svelte';
-import Vi from './Vi.svelte';
-import St from './St.svelte';
-import Bs from './Bs.svelte';
-import Am from './Am.svelte';
-import Gn from './Gn.svelte';
-import Pr from './Pr.svelte';
-import Sl from './Sl.svelte';
-import Tm from './Tm.svelte';
-import Gb from './Gb.svelte';
-import Ws from './Ws.svelte';
-import Er from './Er.svelte';
-import EcW from './EcW.svelte';
-import InOr from './InOr.svelte';
-import InKa from './InKa.svelte';
-import Xx from './Xx.svelte';
-import Kw from './Kw.svelte';
-import Mt from './Mt.svelte';
-import Quechua from './Quechua.svelte';
-import Mx from './Mx.svelte';
-import RuTa from './RuTa.svelte';
-import Nf from './Nf.svelte';
-import Lv from './Lv.svelte';
-import Jm from './Jm.svelte';
-import RuCe from './RuCe.svelte';
-import Is from './Is.svelte';
-import Lb from './Lb.svelte';
-import Nr from './Nr.svelte';
-import Ml from './Ml.svelte';
-import Sd from './Sd.svelte';
-import Gf from './Gf.svelte';
-import Cu from './Cu.svelte';
-import It88 from './It88.svelte';
-import Ae from './Ae.svelte';
-import Ug from './Ug.svelte';
-import EsCt from './EsCt.svelte';
-import Vu from './Vu.svelte';
-import Ai from './Ai.svelte';
-import Bw from './Bw.svelte';
-import Transnistria from './Transnistria.svelte';
-import Cy from './Cy.svelte';
-import Bo from './Bo.svelte';
-import Ewe from './Ewe.svelte';
-import Us from './Us.svelte';
-import Aq from './Aq.svelte';
-import Pn from './Pn.svelte';
-import Gr from './Gr.svelte';
-import Ca from './Ca.svelte';
-import Cm from './Cm.svelte';
-import Va from './Va.svelte';
-import Pt from './Pt.svelte';
-import Tg from './Tg.svelte';
-import Gh from './Gh.svelte';
-import Et from './Et.svelte';
-import Ag from './Ag.svelte';
-import By from './By.svelte';
-import Fj from './Fj.svelte';
-import Dz from './Dz.svelte';
-import Malayali from './Malayali.svelte';
-import Gd from './Gd.svelte';
-import Cw from './Cw.svelte';
-import Tk from './Tk.svelte';
-import Ba from './Ba.svelte';
-import Fr from './Fr.svelte';
-import Vc from './Vc.svelte';
-import EsAr from './EsAr.svelte';
-import Co from './Co.svelte';
-import Gp from './Gp.svelte';
-import Cc from './Cc.svelte';
-import Pl from './Pl.svelte';
-import Sr from './Sr.svelte';
-import Bm from './Bm.svelte';
-import EsCn from './EsCn.svelte';
-import As from './As.svelte';
-import Lt from './Lt.svelte';
-import Northern_cyprus from './Northern_cyprus.svelte';
-import Ky from './Ky.svelte';
-import Mz from './Mz.svelte';
-import Ie from './Ie.svelte';
-import Mv from './Mv.svelte';
-import Yt from './Yt.svelte';
-import AuAboriginal from './AuAboriginal.svelte';
-import Hk from './Hk.svelte';
-import Np from './Np.svelte';
-import Mn from './Mn.svelte';
-import Km from './Km.svelte';
-import Kanuri from './Kanuri.svelte';
-import Jo from './Jo.svelte';
-import Iq from './Iq.svelte';
-import Hn from './Hn.svelte';
-import EtOr from './EtOr.svelte';
-import RuUd from './RuUd.svelte';
-import Kp from './Kp.svelte';
-import Olympics from './Olympics.svelte';
-import Ms from './Ms.svelte';
-import Il from './Il.svelte';
-import Na from './Na.svelte';
-import Ye from './Ye.svelte';
-import ShTa from './ShTa.svelte';
-import It from './It.svelte';
-import Mg from './Mg.svelte';
-import IdJt from './IdJt.svelte';
-import Xk from './Xk.svelte';
-import BqSe from './BqSe.svelte';
-import Li from './Li.svelte';
-import Kh from './Kh.svelte';
-import Nu from './Nu.svelte';
-import Mk from './Mk.svelte';
-import GbSct from './GbSct.svelte';
-import Zw from './Zw.svelte';
-import Otomi from './Otomi.svelte';
-import Sc from './Sc.svelte';
-import Ga from './Ga.svelte';
-import Cr from './Cr.svelte';
-import Tn from './Tn.svelte';
-import Fo from './Fo.svelte';
-import Maori from './Maori.svelte';
-import So from './So.svelte';
-import Gm from './Gm.svelte';
-import Bh from './Bh.svelte';
-import Ee from './Ee.svelte';
-import Gu from './Gu.svelte';
-import Cf from './Cf.svelte';
-import Tz from './Tz.svelte';
-import Soviet_union from './Soviet_union.svelte';
-import Dk from './Dk.svelte';
-import Guarani from './Guarani.svelte';
-import Pe from './Pe.svelte';
-import Tv from './Tv.svelte';
-import East_african_federation from './East_african_federation.svelte';
-import Gy from './Gy.svelte';
-import Bd from './Bd.svelte';
-import PkSd from './PkSd.svelte';
-import Az from './Az.svelte';
-import Ru from './Ru.svelte';
-import Sm from './Sm.svelte';
-import Ps from './Ps.svelte';
-import Al from './Al.svelte';
-import Br from './Br.svelte';
-import Es from './Es.svelte';
-import GbCon from './GbCon.svelte';
-import Ro from './Ro.svelte';
-import Fm from './Fm.svelte';
-import Kurdistan from './Kurdistan.svelte';
-import Sa from './Sa.svelte';
-import CaBc from './CaBc.svelte';
-import Tl from './Tl.svelte';
-import Uz from './Uz.svelte';
-import Bf from './Bf.svelte';
-import EsCe from './EsCe.svelte';
-import Rw from './Rw.svelte';
-import Wiphala from './Wiphala.svelte';
-import Ax from './Ax.svelte';
-import Ch from './Ch.svelte';
-import Pg from './Pg.svelte';
-import EsVariant from './EsVariant.svelte';
-import Tt from './Tt.svelte';
-import De from './De.svelte';
-import Sy from './Sy.svelte';
-import Pk from './Pk.svelte';
-import Sami from './Sami.svelte';
-import Gw from './Gw.svelte';
-import Cd from './Cd.svelte';
-import Wf from './Wf.svelte';
-import EtTi from './EtTi.svelte';
-import Bj from './Bj.svelte';
-import Kikuyu from './Kikuyu.svelte';
-import Eg from './Eg.svelte';
-import At from './At.svelte';
-import Ls from './Ls.svelte';
-import Om from './Om.svelte';
-import Za from './Za.svelte';
-import In from './In.svelte';
-import Nc from './Nc.svelte';
-import Jp from './Jp.svelte';
-import Mq from './Mq.svelte';
-import Zm from './Zm.svelte';
-import No from './No.svelte';
-import Kr from './Kr.svelte';
-import IdJb from './IdJb.svelte';
-import ShAc from './ShAc.svelte';
-import Ht from './Ht.svelte';
-import Lk from './Lk.svelte';
-import Me from './Me.svelte';
-import Dm from './Dm.svelte';
-import Somaliland from './Somaliland.svelte';
-import Gs from './Gs.svelte';
-import Ec from './Ec.svelte';
-import Bn from './Bn.svelte';
-import Qa from './Qa.svelte';
-import Rs from './Rs.svelte';
-import European_union from './European_union.svelte';
-import Bb from './Bb.svelte';
-import Cl from './Cl.svelte';
-import Bz from './Bz.svelte';
-import Fi from './Fi.svelte';
-import EsPv from './EsPv.svelte';
-import Yorubaland from './Yorubaland.svelte';
-import Ad from './Ad.svelte';
-import Th from './Th.svelte';
-import Gg from './Gg.svelte';
-import Se from './Se.svelte';
-import Cx from './Cx.svelte';
-import Pw from './Pw.svelte';
-import Td from './Td.svelte';
-import Si from './Si.svelte';
-import Kongo from './Kongo.svelte';
-import EsMl from './EsMl.svelte';
-import Ir from './Ir.svelte';
-import Ma from './Ma.svelte';
-import InTn from './InTn.svelte';
-import It23 from './It23.svelte';
-import Mm from './Mm.svelte';
-import Hmong from './Hmong.svelte';
-import Lc from './Lc.svelte';
-import Kn from './Kn.svelte';
-import Mu from './Mu.svelte';
-import Kz from './Kz.svelte';
-import PkJk from './PkJk.svelte';
-import Ng from './Ng.svelte';
-import My from './My.svelte';
-import La from './La.svelte';
-import Hr from './Hr.svelte';
-import Mo from './Mo.svelte';
-import Fr20r from './Fr20r.svelte';
-import Nato from './Nato.svelte';
-import Mc from './Mc.svelte';
-import Afar from './Afar.svelte';
-import BqSa from './BqSa.svelte';
-import Ne from './Ne.svelte';
-import Lu from './Lu.svelte';
-import Ly from './Ly.svelte';
-import Ni from './Ni.svelte';
-import Id from './Id.svelte';
-import Mw from './Mw.svelte';
-import Pa from './Pa.svelte';
-import Tr from './Tr.svelte';
-import Cn from './Cn.svelte';
-import Torres_strait_islands from './Torres_strait_islands.svelte';
-import Vn from './Vn.svelte';
-import Ar from './Ar.svelte';
-import NlFr from './NlFr.svelte';
-import FrCp from './FrCp.svelte';
-import Easter_island from './Easter_island.svelte';
-import Bl from './Bl.svelte';
-import Do from './Do.svelte';
-import Ss from './Ss.svelte';
-import Gq from './Gq.svelte';
-import Pm from './Pm.svelte';
-import Bt from './Bt.svelte';
-import Re from './Re.svelte';
-import Tf from './Tf.svelte';
-import Gi from './Gi.svelte';
-import Cz from './Cz.svelte';
-import Sk from './Sk.svelte';
-import Ge from './Ge.svelte';
-import Cv from './Cv.svelte';
-import Py from './Py.svelte';
-import Tj from './Tj.svelte';
-import Tibet from './Tibet.svelte';
-import Sg from './Sg.svelte';
-import Fk from './Fk.svelte';
-import Af from './Af.svelte';
-export {
-	Dj,
-	Sv,
-	Gt,
-	Cg,
-	Ph,
-	Aw,
-	Bi,
-	Eh,
-	GbEng,
-	Vg,
-	GbOrk,
-	ChGr,
-	Be,
-	ShHl,
-	Uy,
-	Sz,
-	Tw,
-	Ck,
-	Ua,
-	FrBre,
-	Earth,
-	To,
-	Sb,
-	Occitania,
-	Tc,
-	Gl,
-	It82,
-	Sn,
-	Ao,
-	EsGa,
-	Ke,
-	Hausa,
-	Mf,
-	Pt30,
-	InGj,
-	RuBa,
-	Ki,
-	Nl,
-	Mr,
-	BqBo,
-	GeAb,
-	Im,
-	GbNir,
-	Hu,
-	Mh,
-	Je,
-	Md,
-	Nz,
-	GbWls,
-	Pt20,
-	Kg,
-	United_nations,
-	Io,
-	EsIb,
-	South_ossetia,
-	Lr,
-	InAs,
-	CnXj,
-	RuCu,
-	Mp,
-	Sx,
-	Ci,
-	Pf,
-	Ve,
-	RuKo,
-	UsHi,
-	Bg,
-	Au,
-	Vi,
-	St,
-	Bs,
-	Am,
-	Gn,
-	Pr,
-	Sl,
-	Tm,
-	Gb,
-	Ws,
-	Er,
-	EcW,
-	InOr,
-	InKa,
-	Xx,
-	Kw,
-	Mt,
-	Quechua,
-	Mx,
-	RuTa,
-	Nf,
-	Lv,
-	Jm,
-	RuCe,
-	Is,
-	Lb,
-	Nr,
-	Ml,
-	Sd,
-	Gf,
-	Cu,
-	It88,
-	Ae,
-	Ug,
-	EsCt,
-	Vu,
-	Ai,
-	Bw,
-	Transnistria,
-	Cy,
-	Bo,
-	Ewe,
-	Us,
-	Aq,
-	Pn,
-	Gr,
-	Ca,
-	Cm,
-	Va,
-	Pt,
-	Tg,
-	Gh,
-	Et,
-	Ag,
-	By,
-	Fj,
-	Dz,
-	Malayali,
-	Gd,
-	Cw,
-	Tk,
-	Ba,
-	Fr,
-	Vc,
-	EsAr,
-	Co,
-	Gp,
-	Cc,
-	Pl,
-	Sr,
-	Bm,
-	EsCn,
-	As,
-	Lt,
-	Northern_cyprus,
-	Ky,
-	Mz,
-	Ie,
-	Mv,
-	Yt,
-	AuAboriginal,
-	Hk,
-	Np,
-	Mn,
-	Km,
-	Kanuri,
-	Jo,
-	Iq,
-	Hn,
-	EtOr,
-	RuUd,
-	Kp,
-	Olympics,
-	Ms,
-	Il,
-	Na,
-	Ye,
-	ShTa,
-	It,
-	Mg,
-	IdJt,
-	Xk,
-	BqSe,
-	Li,
-	Kh,
-	Nu,
-	Mk,
-	GbSct,
-	Zw,
-	Otomi,
-	Sc,
-	Ga,
-	Cr,
-	Tn,
-	Fo,
-	Maori,
-	So,
-	Gm,
-	Bh,
-	Ee,
-	Gu,
-	Cf,
-	Tz,
-	Soviet_union,
-	Dk,
-	Guarani,
-	Pe,
-	Tv,
-	East_african_federation,
-	Gy,
-	Bd,
-	PkSd,
-	Az,
-	Ru,
-	Sm,
-	Ps,
-	Al,
-	Br,
-	Es,
-	GbCon,
-	Ro,
-	Fm,
-	Kurdistan,
-	Sa,
-	CaBc,
-	Tl,
-	Uz,
-	Bf,
-	EsCe,
-	Rw,
-	Wiphala,
-	Ax,
-	Ch,
-	Pg,
-	EsVariant,
-	Tt,
-	De,
-	Sy,
-	Pk,
-	Sami,
-	Gw,
-	Cd,
-	Wf,
-	EtTi,
-	Bj,
-	Kikuyu,
-	Eg,
-	At,
-	Ls,
-	Om,
-	Za,
-	In,
-	Nc,
-	Jp,
-	Mq,
-	Zm,
-	No,
-	Kr,
-	IdJb,
-	ShAc,
-	Ht,
-	Lk,
-	Me,
-	Dm,
-	Somaliland,
-	Gs,
-	Ec,
-	Bn,
-	Qa,
-	Rs,
-	European_union,
-	Bb,
-	Cl,
-	Bz,
-	Fi,
-	EsPv,
-	Yorubaland,
-	Ad,
-	Th,
-	Gg,
-	Se,
-	Cx,
-	Pw,
-	Td,
-	Si,
-	Kongo,
-	EsMl,
-	Ir,
-	Ma,
-	InTn,
-	It23,
-	Mm,
-	Hmong,
-	Lc,
-	Kn,
-	Mu,
-	Kz,
-	PkJk,
-	Ng,
-	My,
-	La,
-	Hr,
-	Mo,
-	Fr20r,
-	Nato,
-	Mc,
-	Afar,
-	BqSa,
-	Ne,
-	Lu,
-	Ly,
-	Ni,
-	Id,
-	Mw,
-	Pa,
-	Tr,
-	Cn,
-	Torres_strait_islands,
-	Vn,
-	Ar,
-	NlFr,
-	FrCp,
-	Easter_island,
-	Bl,
-	Do,
-	Ss,
-	Gq,
-	Pm,
-	Bt,
-	Re,
-	Tf,
-	Gi,
-	Cz,
-	Sk,
-	Ge,
-	Cv,
-	Py,
-	Tj,
-	Tibet,
-	Sg,
-	Fk,
-	Af
-};
+export { default as Ad } from './Ad.svelte';
+export { default as Ae } from './Ae.svelte';
+export { default as Af } from './Af.svelte';
+export { default as Afar } from './Afar.svelte';
+export { default as Ag } from './Ag.svelte';
+export { default as Ai } from './Ai.svelte';
+export { default as Al } from './Al.svelte';
+export { default as Am } from './Am.svelte';
+export { default as An } from './An.svelte';
+export { default as Ao } from './Ao.svelte';
+export { default as Aq } from './Aq.svelte';
+export { default as Ar } from './Ar.svelte';
+export { default as As } from './As.svelte';
+export { default as At } from './At.svelte';
+export { default as Au } from './Au.svelte';
+export { default as AuAboriginal } from './AuAboriginal.svelte';
+export { default as AuAct } from './AuAct.svelte';
+export { default as AuNsw } from './AuNsw.svelte';
+export { default as AuNt } from './AuNt.svelte';
+export { default as AuQld } from './AuQld.svelte';
+export { default as AuSa } from './AuSa.svelte';
+export { default as AuTas } from './AuTas.svelte';
+export { default as AuVic } from './AuVic.svelte';
+export { default as AuWa } from './AuWa.svelte';
+export { default as Aw } from './Aw.svelte';
+export { default as Ax } from './Ax.svelte';
+export { default as Az } from './Az.svelte';
+export { default as Ba } from './Ba.svelte';
+export { default as Bb } from './Bb.svelte';
+export { default as Bd } from './Bd.svelte';
+export { default as Be } from './Be.svelte';
+export { default as Bf } from './Bf.svelte';
+export { default as Bg } from './Bg.svelte';
+export { default as Bh } from './Bh.svelte';
+export { default as Bi } from './Bi.svelte';
+export { default as Bj } from './Bj.svelte';
+export { default as Bl } from './Bl.svelte';
+export { default as Bm } from './Bm.svelte';
+export { default as Bn } from './Bn.svelte';
+export { default as Bo } from './Bo.svelte';
+export { default as BqBo } from './BqBo.svelte';
+export { default as BqSa } from './BqSa.svelte';
+export { default as BqSe } from './BqSe.svelte';
+export { default as Br } from './Br.svelte';
+export { default as Bs } from './Bs.svelte';
+export { default as Bt } from './Bt.svelte';
+export { default as Bw } from './Bw.svelte';
+export { default as By } from './By.svelte';
+export { default as Bz } from './Bz.svelte';
+export { default as Ca } from './Ca.svelte';
+export { default as CaBc } from './CaBc.svelte';
+export { default as Cc } from './Cc.svelte';
+export { default as Cd } from './Cd.svelte';
+export { default as Cf } from './Cf.svelte';
+export { default as Cg } from './Cg.svelte';
+export { default as Ch } from './Ch.svelte';
+export { default as ChGr } from './ChGr.svelte';
+export { default as Ci } from './Ci.svelte';
+export { default as Ck } from './Ck.svelte';
+export { default as Cl } from './Cl.svelte';
+export { default as Cm } from './Cm.svelte';
+export { default as Cn } from './Cn.svelte';
+export { default as CnXj } from './CnXj.svelte';
+export { default as Co } from './Co.svelte';
+export { default as Cq } from './Cq.svelte';
+export { default as Cr } from './Cr.svelte';
+export { default as Cu } from './Cu.svelte';
+export { default as Cv } from './Cv.svelte';
+export { default as Cw } from './Cw.svelte';
+export { default as Cx } from './Cx.svelte';
+export { default as Cy } from './Cy.svelte';
+export { default as Cz } from './Cz.svelte';
+export { default as De } from './De.svelte';
+export { default as Dj } from './Dj.svelte';
+export { default as Dk } from './Dk.svelte';
+export { default as Dm } from './Dm.svelte';
+export { default as Do } from './Do.svelte';
+export { default as Dz } from './Dz.svelte';
+export { default as Earth } from './Earth.svelte';
+export { default as East_african_federation } from './East_african_federation.svelte';
+export { default as Easter_island } from './Easter_island.svelte';
+export { default as Ec } from './Ec.svelte';
+export { default as EcW } from './EcW.svelte';
+export { default as Ee } from './Ee.svelte';
+export { default as Eg } from './Eg.svelte';
+export { default as Eh } from './Eh.svelte';
+export { default as Er } from './Er.svelte';
+export { default as Es } from './Es.svelte';
+export { default as EsAr } from './EsAr.svelte';
+export { default as EsCe } from './EsCe.svelte';
+export { default as EsCn } from './EsCn.svelte';
+export { default as EsCt } from './EsCt.svelte';
+export { default as EsGa } from './EsGa.svelte';
+export { default as EsIb } from './EsIb.svelte';
+export { default as EsMl } from './EsMl.svelte';
+export { default as EsPv } from './EsPv.svelte';
+export { default as EsVariant } from './EsVariant.svelte';
+export { default as Et } from './Et.svelte';
+export { default as EtOr } from './EtOr.svelte';
+export { default as EtTi } from './EtTi.svelte';
+export { default as European_union } from './European_union.svelte';
+export { default as Ewe } from './Ewe.svelte';
+export { default as Fi } from './Fi.svelte';
+export { default as Fj } from './Fj.svelte';
+export { default as Fk } from './Fk.svelte';
+export { default as Fm } from './Fm.svelte';
+export { default as Fo } from './Fo.svelte';
+export { default as Fr } from './Fr.svelte';
+export { default as Fr20r } from './Fr20r.svelte';
+export { default as FrBre } from './FrBre.svelte';
+export { default as FrCp } from './FrCp.svelte';
+export { default as Ga } from './Ga.svelte';
+export { default as Gb } from './Gb.svelte';
+export { default as GbCon } from './GbCon.svelte';
+export { default as GbEng } from './GbEng.svelte';
+export { default as GbNir } from './GbNir.svelte';
+export { default as GbOrk } from './GbOrk.svelte';
+export { default as GbSct } from './GbSct.svelte';
+export { default as GbWls } from './GbWls.svelte';
+export { default as Gd } from './Gd.svelte';
+export { default as Ge } from './Ge.svelte';
+export { default as GeAb } from './GeAb.svelte';
+export { default as Gf } from './Gf.svelte';
+export { default as Gg } from './Gg.svelte';
+export { default as Gh } from './Gh.svelte';
+export { default as Gi } from './Gi.svelte';
+export { default as Gl } from './Gl.svelte';
+export { default as Gm } from './Gm.svelte';
+export { default as Gn } from './Gn.svelte';
+export { default as Gp } from './Gp.svelte';
+export { default as Gq } from './Gq.svelte';
+export { default as Gr } from './Gr.svelte';
+export { default as Gs } from './Gs.svelte';
+export { default as Gt } from './Gt.svelte';
+export { default as Gu } from './Gu.svelte';
+export { default as Guarani } from './Guarani.svelte';
+export { default as Gw } from './Gw.svelte';
+export { default as Gy } from './Gy.svelte';
+export { default as Hausa } from './Hausa.svelte';
+export { default as Hk } from './Hk.svelte';
+export { default as Hmong } from './Hmong.svelte';
+export { default as Hn } from './Hn.svelte';
+export { default as Hr } from './Hr.svelte';
+export { default as Ht } from './Ht.svelte';
+export { default as Hu } from './Hu.svelte';
+export { default as Id } from './Id.svelte';
+export { default as IdJb } from './IdJb.svelte';
+export { default as IdJt } from './IdJt.svelte';
+export { default as Ie } from './Ie.svelte';
+export { default as Il } from './Il.svelte';
+export { default as Im } from './Im.svelte';
+export { default as In } from './In.svelte';
+export { default as InAs } from './InAs.svelte';
+export { default as InGj } from './InGj.svelte';
+export { default as InKa } from './InKa.svelte';
+export { default as InOr } from './InOr.svelte';
+export { default as InTg } from './InTg.svelte';
+export { default as InTn } from './InTn.svelte';
+export { default as Io } from './Io.svelte';
+export { default as Iq } from './Iq.svelte';
+export { default as Ir } from './Ir.svelte';
+export { default as Is } from './Is.svelte';
+export { default as It } from './It.svelte';
+export { default as It23 } from './It23.svelte';
+export { default as It82 } from './It82.svelte';
+export { default as It88 } from './It88.svelte';
+export { default as Je } from './Je.svelte';
+export { default as Jm } from './Jm.svelte';
+export { default as Jo } from './Jo.svelte';
+export { default as Jp } from './Jp.svelte';
+export { default as Kanuri } from './Kanuri.svelte';
+export { default as Ke } from './Ke.svelte';
+export { default as Kg } from './Kg.svelte';
+export { default as Kh } from './Kh.svelte';
+export { default as Ki } from './Ki.svelte';
+export { default as Kikuyu } from './Kikuyu.svelte';
+export { default as Km } from './Km.svelte';
+export { default as Kn } from './Kn.svelte';
+export { default as Kongo } from './Kongo.svelte';
+export { default as Kp } from './Kp.svelte';
+export { default as Kr } from './Kr.svelte';
+export { default as Kurdistan } from './Kurdistan.svelte';
+export { default as Kw } from './Kw.svelte';
+export { default as Ky } from './Ky.svelte';
+export { default as Kz } from './Kz.svelte';
+export { default as La } from './La.svelte';
+export { default as Lb } from './Lb.svelte';
+export { default as Lc } from './Lc.svelte';
+export { default as Li } from './Li.svelte';
+export { default as Lk } from './Lk.svelte';
+export { default as Lr } from './Lr.svelte';
+export { default as Ls } from './Ls.svelte';
+export { default as Lt } from './Lt.svelte';
+export { default as Lu } from './Lu.svelte';
+export { default as Lv } from './Lv.svelte';
+export { default as Ly } from './Ly.svelte';
+export { default as Ma } from './Ma.svelte';
+export { default as Malayali } from './Malayali.svelte';
+export { default as Manipur } from './Manipur.svelte';
+export { default as Maori } from './Maori.svelte';
+export { default as Mc } from './Mc.svelte';
+export { default as Md } from './Md.svelte';
+export { default as Me } from './Me.svelte';
+export { default as Mf } from './Mf.svelte';
+export { default as Mg } from './Mg.svelte';
+export { default as Mh } from './Mh.svelte';
+export { default as Mizoram } from './Mizoram.svelte';
+export { default as Mk } from './Mk.svelte';
+export { default as Ml } from './Ml.svelte';
+export { default as Mm } from './Mm.svelte';
+export { default as Mn } from './Mn.svelte';
+export { default as Mo } from './Mo.svelte';
+export { default as Mp } from './Mp.svelte';
+export { default as Mq } from './Mq.svelte';
+export { default as Mr } from './Mr.svelte';
+export { default as Ms } from './Ms.svelte';
+export { default as Mt } from './Mt.svelte';
+export { default as Mu } from './Mu.svelte';
+export { default as Mv } from './Mv.svelte';
+export { default as Mw } from './Mw.svelte';
+export { default as Mx } from './Mx.svelte';
+export { default as My } from './My.svelte';
+export { default as Mz } from './Mz.svelte';
+export { default as Na } from './Na.svelte';
+export { default as Nato } from './Nato.svelte';
+export { default as Nc } from './Nc.svelte';
+export { default as Ne } from './Ne.svelte';
+export { default as Nf } from './Nf.svelte';
+export { default as Ng } from './Ng.svelte';
+export { default as Ni } from './Ni.svelte';
+export { default as Nl } from './Nl.svelte';
+export { default as NlFr } from './NlFr.svelte';
+export { default as No } from './No.svelte';
+export { default as Northern_cyprus } from './Northern_cyprus.svelte';
+export { default as Np } from './Np.svelte';
+export { default as Nr } from './Nr.svelte';
+export { default as Nu } from './Nu.svelte';
+export { default as Nz } from './Nz.svelte';
+export { default as Occitania } from './Occitania.svelte';
+export { default as Olympics } from './Olympics.svelte';
+export { default as Om } from './Om.svelte';
+export { default as Otomi } from './Otomi.svelte';
+export { default as Pa } from './Pa.svelte';
+export { default as Pe } from './Pe.svelte';
+export { default as Pf } from './Pf.svelte';
+export { default as Pg } from './Pg.svelte';
+export { default as Ph } from './Ph.svelte';
+export { default as Pk } from './Pk.svelte';
+export { default as PkJk } from './PkJk.svelte';
+export { default as PkSd } from './PkSd.svelte';
+export { default as Pl } from './Pl.svelte';
+export { default as Pm } from './Pm.svelte';
+export { default as Pn } from './Pn.svelte';
+export { default as Pr } from './Pr.svelte';
+export { default as Ps } from './Ps.svelte';
+export { default as Pt } from './Pt.svelte';
+export { default as Pt20 } from './Pt20.svelte';
+export { default as Pt30 } from './Pt30.svelte';
+export { default as Pw } from './Pw.svelte';
+export { default as Py } from './Py.svelte';
+export { default as Qa } from './Qa.svelte';
+export { default as Quechua } from './Quechua.svelte';
+export { default as Re } from './Re.svelte';
+export { default as Ro } from './Ro.svelte';
+export { default as Rs } from './Rs.svelte';
+export { default as Ru } from './Ru.svelte';
+export { default as RuBa } from './RuBa.svelte';
+export { default as RuCe } from './RuCe.svelte';
+export { default as RuCu } from './RuCu.svelte';
+export { default as RuDa } from './RuDa.svelte';
+export { default as RuKo } from './RuKo.svelte';
+export { default as RuTa } from './RuTa.svelte';
+export { default as RuUd } from './RuUd.svelte';
+export { default as Rw } from './Rw.svelte';
+export { default as Sa } from './Sa.svelte';
+export { default as Sami } from './Sami.svelte';
+export { default as Sb } from './Sb.svelte';
+export { default as Sc } from './Sc.svelte';
+export { default as Sd } from './Sd.svelte';
+export { default as Se } from './Se.svelte';
+export { default as Sg } from './Sg.svelte';
+export { default as ShAc } from './ShAc.svelte';
+export { default as ShHl } from './ShHl.svelte';
+export { default as ShTa } from './ShTa.svelte';
+export { default as Si } from './Si.svelte';
+export { default as Sk } from './Sk.svelte';
+export { default as Sl } from './Sl.svelte';
+export { default as Sm } from './Sm.svelte';
+export { default as Sn } from './Sn.svelte';
+export { default as So } from './So.svelte';
+export { default as Somaliland } from './Somaliland.svelte';
+export { default as South_ossetia } from './South_ossetia.svelte';
+export { default as Soviet_union } from './Soviet_union.svelte';
+export { default as Sr } from './Sr.svelte';
+export { default as Ss } from './Ss.svelte';
+export { default as St } from './St.svelte';
+export { default as Sv } from './Sv.svelte';
+export { default as Sx } from './Sx.svelte';
+export { default as Sy } from './Sy.svelte';
+export { default as Sz } from './Sz.svelte';
+export { default as Tc } from './Tc.svelte';
+export { default as Td } from './Td.svelte';
+export { default as Tf } from './Tf.svelte';
+export { default as Tg } from './Tg.svelte';
+export { default as Th } from './Th.svelte';
+export { default as Tibet } from './Tibet.svelte';
+export { default as Tj } from './Tj.svelte';
+export { default as Tk } from './Tk.svelte';
+export { default as Tl } from './Tl.svelte';
+export { default as Tm } from './Tm.svelte';
+export { default as Tn } from './Tn.svelte';
+export { default as To } from './To.svelte';
+export { default as Torres_strait_islands } from './Torres_strait_islands.svelte';
+export { default as Tr } from './Tr.svelte';
+export { default as Transnistria } from './Transnistria.svelte';
+export { default as Tt } from './Tt.svelte';
+export { default as Tv } from './Tv.svelte';
+export { default as Tw } from './Tw.svelte';
+export { default as Tz } from './Tz.svelte';
+export { default as Ua } from './Ua.svelte';
+export { default as Ug } from './Ug.svelte';
+export { default as United_nations } from './United_nations.svelte';
+export { default as Us } from './Us.svelte';
+export { default as UsAk } from './UsAk.svelte';
+export { default as UsAl } from './UsAl.svelte';
+export { default as UsAr } from './UsAr.svelte';
+export { default as UsAz } from './UsAz.svelte';
+export { default as UsCa } from './UsCa.svelte';
+export { default as UsCo } from './UsCo.svelte';
+export { default as UsDc } from './UsDc.svelte';
+export { default as UsFl } from './UsFl.svelte';
+export { default as UsGa } from './UsGa.svelte';
+export { default as UsHi } from './UsHi.svelte';
+export { default as UsIn } from './UsIn.svelte';
+export { default as UsMo } from './UsMo.svelte';
+export { default as UsMs } from './UsMs.svelte';
+export { default as UsNc } from './UsNc.svelte';
+export { default as UsNm } from './UsNm.svelte';
+export { default as UsRi } from './UsRi.svelte';
+export { default as UsTn } from './UsTn.svelte';
+export { default as UsTx } from './UsTx.svelte';
+export { default as Uy } from './Uy.svelte';
+export { default as Uz } from './Uz.svelte';
+export { default as Va } from './Va.svelte';
+export { default as Vc } from './Vc.svelte';
+export { default as Ve } from './Ve.svelte';
+export { default as Vg } from './Vg.svelte';
+export { default as Vi } from './Vi.svelte';
+export { default as Vn } from './Vn.svelte';
+export { default as Vu } from './Vu.svelte';
+export { default as Wf } from './Wf.svelte';
+export { default as Wiphala } from './Wiphala.svelte';
+export { default as Ws } from './Ws.svelte';
+export { default as Xk } from './Xk.svelte';
+export { default as Xx } from './Xx.svelte';
+export { default as Ye } from './Ye.svelte';
+export { default as Yorubaland } from './Yorubaland.svelte';
+export { default as Yt } from './Yt.svelte';
+export { default as Za } from './Za.svelte';
+export { default as Zm } from './Zm.svelte';
+export { default as Zw } from './Zw.svelte';
