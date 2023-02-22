@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/shinokada/svelte-circle-flags/compare/v0.2.1...v0.3.0) (2023-02-22)
+
+
+### Features
+
+* add microsoft webmaster tools meta tag ([099b62b](https://github.com/shinokada/svelte-circle-flags/commit/099b62b7e70fff6f9ad503598c7909a70f84e4f6))
+* new svelte packaging system ([c2b18d1](https://github.com/shinokada/svelte-circle-flags/commit/c2b18d165c89c2c5238e267386f889c77558e5df))
+
+
+### Bug Fixes
+
+* add back to home ([062a333](https://github.com/shinokada/svelte-circle-flags/commit/062a333f6059ca33678b0fd33846c0626071bb65))
+* update index.html ([698fe8b](https://github.com/shinokada/svelte-circle-flags/commit/698fe8bc5a85f15cd0f48dd58575eac5a63de56c))
+
 ### [0.2.1](https://github.com/shinokada/svelte-circle-flags/compare/v0.2.0...v0.2.1) (2023-02-03)
 
 ## [0.2.0](https://github.com/shinokada/svelte-circle-flags/compare/v0.1.10...v0.2.0) (2023-02-03)
