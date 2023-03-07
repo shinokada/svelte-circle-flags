@@ -171,7 +171,7 @@ You can pass other attibutes as well.
 
 ```html
 <script>
-  import { ChatPlus } from 'svelte-circle-flags';
+  import { Us } from 'svelte-circle-flags';
   import { onMount } from 'svelte';
   const props = {
     size: '50',
