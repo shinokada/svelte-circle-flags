@@ -1,6 +1,6 @@
 {
 	"name": "svelte-circle-flags",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "SVG circle flag icon components for Svelte",
 	"author": {
 		"name": "Shinichi Okada",
@@ -23,7 +23,8 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"write-package-json": "node ./scripts/package-json-writer.js",
-		"package:publish": "standard-version && git push --follow-tags origin main && npm run package && npm run write-package-json && npm publish"
+    "add-exports": "node ./scripts/add-exports-to-package-json.js",
+    "package:publish": "standard-version && git push --follow-tags origin main && npm run package && npm run add-exports && npm run write-package-json && npm publish"
 	},
 	"exports": {
 		".": {
