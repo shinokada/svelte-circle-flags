@@ -55,8 +55,6 @@ Most of the flags follow the ISO 3166 country codes.
 
 ## Faster compiling
 
-**This require `"typescript": "^5.0.0"`.**
-
 For faster compilation, you can import the icon directly.
 
 ```html
@@ -66,6 +64,8 @@ For faster compilation, you can import the icon directly.
 
 <Us />
 ```
+
+If you are TypeScript user, **this require `"typescript": "^5.0.0"`.**
 
 As of March 2023, the `typescript@beta` version is now available:
 
