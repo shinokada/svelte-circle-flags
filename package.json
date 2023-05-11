@@ -1,6 +1,6 @@
 {
   "name": "svelte-circle-flags",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "SVG circle flag icon components for Svelte",
   "author": {
     "name": "Shinichi Okada",
@@ -43,6 +43,10 @@
       "types": "./dist/Af.svelte.d.ts",
       "svelte": "./dist/Af.svelte"
     },
+    "./AfEmirate.svelte": {
+      "types": "./dist/AfEmirate.svelte.d.ts",
+      "svelte": "./dist/AfEmirate.svelte"
+    },
     "./Afar.svelte": {
       "types": "./dist/Afar.svelte.d.ts",
       "svelte": "./dist/Afar.svelte"
@@ -74,6 +78,10 @@
     "./Aq.svelte": {
       "types": "./dist/Aq.svelte.d.ts",
       "svelte": "./dist/Aq.svelte"
+    },
+    "./AqTrue_south.svelte": {
+      "types": "./dist/AqTrue_south.svelte.d.ts",
+      "svelte": "./dist/AqTrue_south.svelte"
     },
     "./Ar.svelte": {
       "types": "./dist/Ar.svelte.d.ts",
@@ -651,6 +659,14 @@
       "types": "./dist/InKa.svelte.d.ts",
       "svelte": "./dist/InKa.svelte"
     },
+    "./InMn.svelte": {
+      "types": "./dist/InMn.svelte.d.ts",
+      "svelte": "./dist/InMn.svelte"
+    },
+    "./InMz.svelte": {
+      "types": "./dist/InMz.svelte.d.ts",
+      "svelte": "./dist/InMz.svelte"
+    },
     "./InOr.svelte": {
       "types": "./dist/InOr.svelte.d.ts",
       "svelte": "./dist/InOr.svelte"
@@ -670,6 +686,10 @@
     "./Iq.svelte": {
       "types": "./dist/Iq.svelte.d.ts",
       "svelte": "./dist/Iq.svelte"
+    },
+    "./IqKr.svelte": {
+      "types": "./dist/IqKr.svelte.d.ts",
+      "svelte": "./dist/IqKr.svelte"
     },
     "./Ir.svelte": {
       "types": "./dist/Ir.svelte.d.ts",
@@ -755,10 +775,6 @@
       "types": "./dist/Kr.svelte.d.ts",
       "svelte": "./dist/Kr.svelte"
     },
-    "./Kurdistan.svelte": {
-      "types": "./dist/Kurdistan.svelte.d.ts",
-      "svelte": "./dist/Kurdistan.svelte"
-    },
     "./Kw.svelte": {
       "types": "./dist/Kw.svelte.d.ts",
       "svelte": "./dist/Kw.svelte"
@@ -823,10 +839,6 @@
       "types": "./dist/Malayali.svelte.d.ts",
       "svelte": "./dist/Malayali.svelte"
     },
-    "./Manipur.svelte": {
-      "types": "./dist/Manipur.svelte.d.ts",
-      "svelte": "./dist/Manipur.svelte"
-    },
     "./Maori.svelte": {
       "types": "./dist/Maori.svelte.d.ts",
       "svelte": "./dist/Maori.svelte"
@@ -854,10 +866,6 @@
     "./Mh.svelte": {
       "types": "./dist/Mh.svelte.d.ts",
       "svelte": "./dist/Mh.svelte"
-    },
-    "./Mizoram.svelte": {
-      "types": "./dist/Mizoram.svelte.d.ts",
-      "svelte": "./dist/Mizoram.svelte"
     },
     "./Mk.svelte": {
       "types": "./dist/Mk.svelte.d.ts",
