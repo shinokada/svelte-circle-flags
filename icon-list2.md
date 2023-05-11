@@ -1,330 +1,364 @@
-<Icon.Ad size="50" />>
-<Icon.Ae size="50" />
-<Icon.Af size="50" />
-<Icon.Afar size="50" />
-<Icon.Ag size="50" />
-<Icon.Ai size="50" />
-<Icon.Al size="50" />
-<Icon.Am size="50" />
-<Icon.Ao size="50" />
-<Icon.Aq size="50" />
-<Icon.Ar size="50" />
-<Icon.As size="50" />
-<Icon.At size="50" />
-<Icon.Au size="50" />
-<Icon.AuAboriginal size="50" />
-<Icon.Aw size="50" />
-<Icon.Ax size="50" />
-<Icon.Az size="50" />
-<Icon.Ba size="50" />
-<Icon.Bb size="50" />
-<Icon.Bd size="50" />
-<Icon.Be size="50" />
-<Icon.Bf size="50" />
-<Icon.Bg size="50" />
-<Icon.Bh size="50" />
-<Icon.Bi size="50" />
-<Icon.Bj size="50" />
-<Icon.Bl size="50" />
-<Icon.Bm size="50" />
-<Icon.Bn size="50" />
-<Icon.Bo size="50" />
-<Icon.BqBo size="50" />
-<Icon.BqSa size="50" />
-<Icon.BqSe size="50" />
-<Icon.Br size="50" />
-<Icon.Bs size="50" />
-<Icon.Bt size="50" />
-<Icon.Bw size="50" />
-<Icon.By size="50" />
-<Icon.Bz size="50" />
-<Icon.Ca size="50" />
-<Icon.CaBc size="50" />
-<Icon.Cc size="50" />
-<Icon.Cd size="50" />
-<Icon.Cf size="50" />
-<Icon.Cg size="50" />
-<Icon.Ch size="50" />
-<Icon.ChGr size="50" />
-<Icon.Ci size="50" />
-<Icon.Ck size="50" />
-<Icon.Cl size="50" />
-<Icon.Cm size="50" />
-<Icon.Cn size="50" />
-<Icon.CnXj size="50" />
-<Icon.Co size="50" />
-<Icon.Cr size="50" />
-<Icon.Cu size="50" />
-<Icon.Cv size="50" />
-<Icon.Cw size="50" />
-<Icon.Cx size="50" />
-<Icon.Cy size="50" />
-<Icon.Cz size="50" />
-<Icon.De size="50" />
-<Icon.Dj size="50" />
-<Icon.Dk size="50" />
-<Icon.Dm size="50" />
-<Icon.Do size="50" />
-<Icon.Dz size="50" />
-<Icon.Earth size="50" />
-<Icon.East_african_federation size="50" />
-<Icon.Easter_island size="50" />
-<Icon.Ec size="50" />
-<Icon.EcW size="50" />
-<Icon.Ee size="50" />
-<Icon.Eg size="50" />
-<Icon.Eh size="50" />
-<Icon.Er size="50" />
-<Icon.Es size="50" />
-<Icon.EsAr size="50" />
-<Icon.EsCe size="50" />
-<Icon.EsCn size="50" />
-<Icon.EsCt size="50" />
-<Icon.EsGa size="50" />
-<Icon.EsIb size="50" />
-<Icon.EsMl size="50" />
-<Icon.EsPv size="50" />
-<Icon.EsVariant size="50" />
-<Icon.Et size="50" />
-<Icon.EtOr size="50" />
-<Icon.EtTi size="50" />
-<Icon.European_union size="50" />
-<Icon.Ewe size="50" />
-<Icon.Fi size="50" />
-<Icon.Fj size="50" />
-<Icon.Fk size="50" />
-<Icon.Fm size="50" />
-<Icon.Fo size="50" />
-<Icon.Fr size="50" />
-<Icon.Fr20r size="50" />
-<Icon.FrBre size="50" />
-<Icon.FrCp size="50" />
-<Icon.Ga size="50" />
-<Icon.Gb size="50" />
-<Icon.GbCon size="50" />
-<Icon.GbEng size="50" />
-<Icon.GbNir size="50" />
-<Icon.GbOrk size="50" />
-<Icon.GbSct size="50" />
-<Icon.GbWls size="50" />
-<Icon.Gd size="50" />
-<Icon.Ge size="50" />
-<Icon.GeAb size="50" />
-<Icon.Gf size="50" />
-<Icon.Gg size="50" />
-<Icon.Gh size="50" />
-<Icon.Gi size="50" />
-<Icon.Gl size="50" />
-<Icon.Gm size="50" />
-<Icon.Gn size="50" />
-<Icon.Gp size="50" />
-<Icon.Gq size="50" />
-<Icon.Gr size="50" />
-<Icon.Gs size="50" />
-<Icon.Gt size="50" />
-<Icon.Gu size="50" />
-<Icon.Guarani size="50" />
-<Icon.Gw size="50" />
-<Icon.Gy size="50" />
-<Icon.Hausa size="50" />
-<Icon.Hk size="50" />
-<Icon.Hmong size="50" />
-<Icon.Hn size="50" />
-<Icon.Hr size="50" />
-<Icon.Ht size="50" />
-<Icon.Hu size="50" />
-<Icon.Id size="50" />
-<Icon.IdJb size="50" />
-<Icon.IdJt size="50" />
-<Icon.Ie size="50" />
-<Icon.Il size="50" />
-<Icon.Im size="50" />
-<Icon.In size="50" />
-<Icon.InAs size="50" />
-<Icon.InGj size="50" />
-<Icon.InKa size="50" />
-<Icon.InOr size="50" />
-<Icon.InTn size="50" />
-<Icon.Io size="50" />
-<Icon.Iq size="50" />
-<Icon.Ir size="50" />
-<Icon.Is size="50" />
-<Icon.It size="50" />
-<Icon.It23 size="50" />
-<Icon.It82 size="50" />
-<Icon.It88 size="50" />
-<Icon.Je size="50" />
-<Icon.Jm size="50" />
-<Icon.Jo size="50" />
-<Icon.Jp size="50" />
-<Icon.Kanuri size="50" />
-<Icon.Ke size="50" />
-<Icon.Kg size="50" />
-<Icon.Kh size="50" />
-<Icon.Ki size="50" />
-<Icon.Kikuyu size="50" />
-<Icon.Km size="50" />
-<Icon.Kn size="50" />
-<Icon.Kongo size="50" />
-<Icon.Kp size="50" />
-<Icon.Kr size="50" />
-<Icon.Kurdistan size="50" />
-<Icon.Kw size="50" />
-<Icon.Ky size="50" />
-<Icon.Kz size="50" />
-<Icon.La size="50" />
-<Icon.Lb size="50" />
-<Icon.Lc size="50" />
-<Icon.Li size="50" />
-<Icon.Lk size="50" />
-<Icon.Lr size="50" />
-<Icon.Ls size="50" />
-<Icon.Lt size="50" />
-<Icon.Lu size="50" />
-<Icon.Lv size="50" />
-<Icon.Ly size="50" />
-<Icon.Ma size="50" />
-<Icon.Malayali size="50" />
-<Icon.Maori size="50" />
-<Icon.Mc size="50" />
-<Icon.Md size="50" />
-<Icon.Me size="50" />
-<Icon.Mf size="50" />
-<Icon.Mg size="50" />
-<Icon.Mh size="50" />
-<Icon.Mk size="50" />
-<Icon.Ml size="50" />
-<Icon.Mm size="50" />
-<Icon.Mn size="50" />
-<Icon.Mo size="50" />
-<Icon.Mp size="50" />
-<Icon.Mq size="50" />
-<Icon.Mr size="50" />
-<Icon.Ms size="50" />
-<Icon.Mt size="50" />
-<Icon.Mu size="50" />
-<Icon.Mv size="50" />
-<Icon.Mw size="50" />
-<Icon.Mx size="50" />
-<Icon.My size="50" />
-<Icon.Mz size="50" />
-<Icon.Na size="50" />
-<Icon.Nato size="50" />
-<Icon.Nc size="50" />
-<Icon.Ne size="50" />
-<Icon.Nf size="50" />
-<Icon.Ng size="50" />
-<Icon.Ni size="50" />
-<Icon.Nl size="50" />
-<Icon.NlFr size="50" />
-<Icon.No size="50" />
-<Icon.Northern_cyprus size="50" />
-<Icon.Np size="50" />
-<Icon.Nr size="50" />
-<Icon.Nu size="50" />
-<Icon.Nz size="50" />
-<Icon.Occitania size="50" />
-<Icon.Olympics size="50" />
-<Icon.Om size="50" />
-<Icon.Otomi size="50" />
-<Icon.Pa size="50" />
-<Icon.Pe size="50" />
-<Icon.Pf size="50" />
-<Icon.Pg size="50" />
-<Icon.Ph size="50" />
-<Icon.Pk size="50" />
-<Icon.PkJk size="50" />
-<Icon.PkSd size="50" />
-<Icon.Pl size="50" />
-<Icon.Pm size="50" />
-<Icon.Pn size="50" />
-<Icon.Pr size="50" />
-<Icon.Ps size="50" />
-<Icon.Pt size="50" />
-<Icon.Pt20 size="50" />
-<Icon.Pt30 size="50" />
-<Icon.Pw size="50" />
-<Icon.Py size="50" />
-<Icon.Qa size="50" />
-<Icon.Quechua size="50" />
-<Icon.Re size="50" />
-<Icon.Ro size="50" />
-<Icon.Rs size="50" />
-<Icon.Ru size="50" />
-<Icon.RuBa size="50" />
-<Icon.RuCe size="50" />
-<Icon.RuCu size="50" />
-<Icon.RuKo size="50" />
-<Icon.RuTa size="50" />
-<Icon.RuUd size="50" />
-<Icon.Rw size="50" />
-<Icon.Sa size="50" />
-<Icon.Sami size="50" />
-<Icon.Sb size="50" />
-<Icon.Sc size="50" />
-<Icon.Sd size="50" />
-<Icon.Se size="50" />
-<Icon.Sg size="50" />
-<Icon.ShAc size="50" />
-<Icon.ShHl size="50" />
-<Icon.ShTa size="50" />
-<Icon.Si size="50" />
-<Icon.Sk size="50" />
-<Icon.Sl size="50" />
-<Icon.Sm size="50" />
-<Icon.Sn size="50" />
-<Icon.So size="50" />
-<Icon.Somaliland size="50" />
-<Icon.South_ossetia size="50" />
-<Icon.Soviet_union size="50" />
-<Icon.Sr size="50" />
-<Icon.Ss size="50" />
-<Icon.St size="50" />
-<Icon.Sv size="50" />
-<Icon.Sx size="50" />
-<Icon.Sy size="50" />
-<Icon.Sz size="50" />
-<Icon.Tc size="50" />
-<Icon.Td size="50" />
-<Icon.Tf size="50" />
-<Icon.Tg size="50" />
-<Icon.Th size="50" />
-<Icon.Tibet size="50" />
-<Icon.Tj size="50" />
-<Icon.Tk size="50" />
-<Icon.Tl size="50" />
-<Icon.Tm size="50" />
-<Icon.Tn size="50" />
-<Icon.To size="50" />
-<Icon.Torres_strait_islands size="50" />
-<Icon.Tr size="50" />
-<Icon.Transnistria size="50" />
-<Icon.Tt size="50" />
-<Icon.Tv size="50" />
-<Icon.Tw size="50" />
-<Icon.Tz size="50" />
-<Icon.Ua size="50" />
-<Icon.Ug size="50" />
-<Icon.United_nations size="50" />
-<Icon.Us size="50" />
-<Icon.UsHi size="50" />
-<Icon.Uy size="50" />
-<Icon.Uz size="50" />
-<Icon.Va size="50" />
-<Icon.Vc size="50" />
-<Icon.Ve size="50" />
-<Icon.Vg size="50" />
-<Icon.Vi size="50" />
-<Icon.Vn size="50" />
-<Icon.Vu size="50" />
-<Icon.Wf size="50" />
-<Icon.Wiphala size="50" />
-<Icon.Ws size="50" />
-<Icon.Xk size="50" />
-<Icon.Xx size="50" />
-<Icon.Ye size="50" />
-<Icon.Yorubaland size="50" />
-<Icon.Yt size="50" />
-<Icon.Za size="50" />
-<Icon.Zm size="50" />
-<Icon.Zw size="50" />
+- Ad.svelte
+- Ae.svelte
+- Af.svelte
+- AfEmirate.svelte
+- Afar.svelte
+- Ag.svelte
+- Ai.svelte
+- Al.svelte
+- Am.svelte
+- An.svelte
+- Ao.svelte
+- Aq.svelte
+- AqTrue_south.svelte
+- Ar.svelte
+- As.svelte
+- At.svelte
+- Au.svelte
+- AuAboriginal.svelte
+- AuAct.svelte
+- AuNsw.svelte
+- AuNt.svelte
+- AuQld.svelte
+- AuSa.svelte
+- AuTas.svelte
+- AuVic.svelte
+- AuWa.svelte
+- Aw.svelte
+- Ax.svelte
+- Az.svelte
+- Ba.svelte
+- Bb.svelte
+- Bd.svelte
+- Be.svelte
+- Bf.svelte
+- Bg.svelte
+- Bh.svelte
+- Bi.svelte
+- Bj.svelte
+- Bl.svelte
+- Bm.svelte
+- Bn.svelte
+- Bo.svelte
+- BqBo.svelte
+- BqSa.svelte
+- BqSe.svelte
+- Br.svelte
+- Bs.svelte
+- Bt.svelte
+- Bw.svelte
+- By.svelte
+- Bz.svelte
+- Ca.svelte
+- CaBc.svelte
+- Cc.svelte
+- Cd.svelte
+- Cf.svelte
+- Cg.svelte
+- Ch.svelte
+- ChGr.svelte
+- Ci.svelte
+- Ck.svelte
+- Cl.svelte
+- Cm.svelte
+- Cn.svelte
+- CnXj.svelte
+- Co.svelte
+- Cq.svelte
+- Cr.svelte
+- Cu.svelte
+- Cv.svelte
+- Cw.svelte
+- Cx.svelte
+- Cy.svelte
+- Cz.svelte
+- De.svelte
+- Dj.svelte
+- Dk.svelte
+- Dm.svelte
+- Do.svelte
+- Dz.svelte
+- Earth.svelte
+- East_african_federation.svelte
+- Easter_island.svelte
+- Ec.svelte
+- EcW.svelte
+- Ee.svelte
+- Eg.svelte
+- Eh.svelte
+- Er.svelte
+- Es.svelte
+- EsAr.svelte
+- EsCe.svelte
+- EsCn.svelte
+- EsCt.svelte
+- EsGa.svelte
+- EsIb.svelte
+- EsMl.svelte
+- EsPv.svelte
+- EsVariant.svelte
+- Et.svelte
+- EtOr.svelte
+- EtTi.svelte
+- European_union.svelte
+- Ewe.svelte
+- Fi.svelte
+- Fj.svelte
+- Fk.svelte
+- Fm.svelte
+- Fo.svelte
+- Fr.svelte
+- Fr20r.svelte
+- FrBre.svelte
+- FrCp.svelte
+- Ga.svelte
+- Gb.svelte
+- GbCon.svelte
+- GbEng.svelte
+- GbNir.svelte
+- GbOrk.svelte
+- GbSct.svelte
+- GbWls.svelte
+- Gd.svelte
+- Ge.svelte
+- GeAb.svelte
+- Gf.svelte
+- Gg.svelte
+- Gh.svelte
+- Gi.svelte
+- Gl.svelte
+- Gm.svelte
+- Gn.svelte
+- Gp.svelte
+- Gq.svelte
+- Gr.svelte
+- Gs.svelte
+- Gt.svelte
+- Gu.svelte
+- Guarani.svelte
+- Gw.svelte
+- Gy.svelte
+- Hausa.svelte
+- Hk.svelte
+- Hmong.svelte
+- Hn.svelte
+- Hr.svelte
+- Ht.svelte
+- Hu.svelte
+- Id.svelte
+- IdJb.svelte
+- IdJt.svelte
+- Ie.svelte
+- Il.svelte
+- Im.svelte
+- In.svelte
+- InAs.svelte
+- InGj.svelte
+- InKa.svelte
+- InMn.svelte
+- InMz.svelte
+- InOr.svelte
+- InTg.svelte
+- InTn.svelte
+- Io.svelte
+- Iq.svelte
+- IqKr.svelte
+- Ir.svelte
+- Is.svelte
+- It.svelte
+- It23.svelte
+- It82.svelte
+- It88.svelte
+- Je.svelte
+- Jm.svelte
+- Jo.svelte
+- Jp.svelte
+- Kanuri.svelte
+- Ke.svelte
+- Kg.svelte
+- Kh.svelte
+- Ki.svelte
+- Kikuyu.svelte
+- Km.svelte
+- Kn.svelte
+- Kongo.svelte
+- Kp.svelte
+- Kr.svelte
+- Kw.svelte
+- Ky.svelte
+- Kz.svelte
+- La.svelte
+- Lb.svelte
+- Lc.svelte
+- Li.svelte
+- Lk.svelte
+- Lr.svelte
+- Ls.svelte
+- Lt.svelte
+- Lu.svelte
+- Lv.svelte
+- Ly.svelte
+- Ma.svelte
+- Malayali.svelte
+- Maori.svelte
+- Mc.svelte
+- Md.svelte
+- Me.svelte
+- Mf.svelte
+- Mg.svelte
+- Mh.svelte
+- Mk.svelte
+- Ml.svelte
+- Mm.svelte
+- Mn.svelte
+- Mo.svelte
+- Mp.svelte
+- Mq.svelte
+- Mr.svelte
+- Ms.svelte
+- Mt.svelte
+- Mu.svelte
+- Mv.svelte
+- Mw.svelte
+- Mx.svelte
+- My.svelte
+- Mz.svelte
+- Na.svelte
+- Nato.svelte
+- Nc.svelte
+- Ne.svelte
+- Nf.svelte
+- Ng.svelte
+- Ni.svelte
+- Nl.svelte
+- NlFr.svelte
+- No.svelte
+- Northern_cyprus.svelte
+- Np.svelte
+- Nr.svelte
+- Nu.svelte
+- Nz.svelte
+- Occitania.svelte
+- Olympics.svelte
+- Om.svelte
+- Otomi.svelte
+- Pa.svelte
+- Pe.svelte
+- Pf.svelte
+- Pg.svelte
+- Ph.svelte
+- Pk.svelte
+- PkJk.svelte
+- PkSd.svelte
+- Pl.svelte
+- Pm.svelte
+- Pn.svelte
+- Pr.svelte
+- Ps.svelte
+- Pt.svelte
+- Pt20.svelte
+- Pt30.svelte
+- Pw.svelte
+- Py.svelte
+- Qa.svelte
+- Quechua.svelte
+- Re.svelte
+- Ro.svelte
+- Rs.svelte
+- Ru.svelte
+- RuBa.svelte
+- RuCe.svelte
+- RuCu.svelte
+- RuDa.svelte
+- RuKo.svelte
+- RuTa.svelte
+- RuUd.svelte
+- Rw.svelte
+- Sa.svelte
+- Sami.svelte
+- Sb.svelte
+- Sc.svelte
+- Sd.svelte
+- Se.svelte
+- Sg.svelte
+- ShAc.svelte
+- ShHl.svelte
+- ShTa.svelte
+- Si.svelte
+- Sk.svelte
+- Sl.svelte
+- Sm.svelte
+- Sn.svelte
+- So.svelte
+- Somaliland.svelte
+- South_ossetia.svelte
+- Soviet_union.svelte
+- Sr.svelte
+- Ss.svelte
+- St.svelte
+- Sv.svelte
+- Sx.svelte
+- Sy.svelte
+- Sz.svelte
+- Tc.svelte
+- Td.svelte
+- Tf.svelte
+- Tg.svelte
+- Th.svelte
+- Tibet.svelte
+- Tj.svelte
+- Tk.svelte
+- Tl.svelte
+- Tm.svelte
+- Tn.svelte
+- To.svelte
+- Torres_strait_islands.svelte
+- Tr.svelte
+- Transnistria.svelte
+- Tt.svelte
+- Tv.svelte
+- Tw.svelte
+- Tz.svelte
+- Ua.svelte
+- Ug.svelte
+- United_nations.svelte
+- Us.svelte
+- UsAk.svelte
+- UsAl.svelte
+- UsAr.svelte
+- UsAz.svelte
+- UsCa.svelte
+- UsCo.svelte
+- UsDc.svelte
+- UsFl.svelte
+- UsGa.svelte
+- UsHi.svelte
+- UsIn.svelte
+- UsMo.svelte
+- UsMs.svelte
+- UsNc.svelte
+- UsNm.svelte
+- UsRi.svelte
+- UsTn.svelte
+- UsTx.svelte
+- Uy.svelte
+- Uz.svelte
+- Va.svelte
+- Vc.svelte
+- Ve.svelte
+- Vg.svelte
+- Vi.svelte
+- Vn.svelte
+- Vu.svelte
+- Wf.svelte
+- Wiphala.svelte
+- Ws.svelte
+- Xk.svelte
+- Xx.svelte
+- Ye.svelte
+- Yorubaland.svelte
+- Yt.svelte
+- Za.svelte
+- Zm.svelte
+- Zw.svelte
+- 

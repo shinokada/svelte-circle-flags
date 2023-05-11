@@ -13,7 +13,7 @@
 <a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-circle-flags.svg" alt="npm" height="25"></a>
 </p>
 
-330+ SVG icons from Circle-Flags
+360+ SVG icons from Circle-Flags
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
