@@ -151,6 +151,21 @@ If you want to make an icon unfocusable, add `tabindex="-1"`.
 <Us tabindex="-1" />
 ```
 
+## Event forwarding
+
+The following events are forwarded:
+
+```
+on:click 
+on:change 
+on:keydown 
+on:keyup 
+on:focus 
+on:blur 
+on:mouseenter 
+on:mouseleave 
+```
+
 ## Passing down other attributes
 
 You can pass other attibutes as well.
