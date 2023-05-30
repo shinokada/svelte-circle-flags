@@ -86,6 +86,15 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
+## Props
+
+- size = '24';
+- ariaLabel = 'icon file name';
+
+## IDE support
+
+If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, props, and events.
+
 ## Size
 
 Use the `size` prop to change the flag sizes.
@@ -154,16 +163,15 @@ If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 The following events are forwarded:
 
-```
-on:click
-on:change
-on:keydown
-on:keyup
-on:focus
-on:blur
-on:mouseenter
-on:mouseleave
-```
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Passing down other attributes
 

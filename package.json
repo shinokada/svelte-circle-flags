@@ -243,6 +243,10 @@
       "types": "./dist/CaBc.svelte.d.ts",
       "svelte": "./dist/CaBc.svelte"
     },
+    "./CaQc.svelte": {
+      "types": "./dist/CaQc.svelte.d.ts",
+      "svelte": "./dist/CaQc.svelte"
+    },
     "./Cc.svelte": {
       "types": "./dist/Cc.svelte.d.ts",
       "svelte": "./dist/Cc.svelte"
@@ -843,6 +847,10 @@
       "types": "./dist/Maori.svelte.d.ts",
       "svelte": "./dist/Maori.svelte"
     },
+    "./Mars.svelte": {
+      "types": "./dist/Mars.svelte.d.ts",
+      "svelte": "./dist/Mars.svelte"
+    },
     "./Mc.svelte": {
       "types": "./dist/Mc.svelte.d.ts",
       "svelte": "./dist/Mc.svelte"
@@ -894,6 +902,10 @@
     "./Mq.svelte": {
       "types": "./dist/Mq.svelte.d.ts",
       "svelte": "./dist/Mq.svelte"
+    },
+    "./MqOld.svelte": {
+      "types": "./dist/MqOld.svelte.d.ts",
+      "svelte": "./dist/MqOld.svelte"
     },
     "./Mr.svelte": {
       "types": "./dist/Mr.svelte.d.ts",
@@ -1119,9 +1131,17 @@
       "types": "./dist/RuDa.svelte.d.ts",
       "svelte": "./dist/RuDa.svelte"
     },
+    "./RuDpr.svelte": {
+      "types": "./dist/RuDpr.svelte.d.ts",
+      "svelte": "./dist/RuDpr.svelte"
+    },
     "./RuKo.svelte": {
       "types": "./dist/RuKo.svelte.d.ts",
       "svelte": "./dist/RuKo.svelte"
+    },
+    "./RuLpr.svelte": {
+      "types": "./dist/RuLpr.svelte.d.ts",
+      "svelte": "./dist/RuLpr.svelte"
     },
     "./RuTa.svelte": {
       "types": "./dist/RuTa.svelte.d.ts",
@@ -1470,6 +1490,10 @@
     "./Yt.svelte": {
       "types": "./dist/Yt.svelte.d.ts",
       "svelte": "./dist/Yt.svelte"
+    },
+    "./Yu.svelte": {
+      "types": "./dist/Yu.svelte.d.ts",
+      "svelte": "./dist/Yu.svelte"
     },
     "./Za.svelte": {
       "types": "./dist/Za.svelte.d.ts",
