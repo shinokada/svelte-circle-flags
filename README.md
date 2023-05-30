@@ -44,7 +44,6 @@ npm i -D svelte-circle-flags
 Most of the flags follow the ISO 3166 country codes.
 [ISO 3166 Country Codes](https://github.com/shinokada/svelte-circle-flags/blob/main/iso-3166-country-codes.md)
 
-
 ## Usage
 
 ```html
@@ -156,14 +155,14 @@ If you want to make an icon unfocusable, add `tabindex="-1"`.
 The following events are forwarded:
 
 ```
-on:click 
-on:change 
-on:keydown 
-on:keyup 
-on:focus 
-on:blur 
-on:mouseenter 
-on:mouseleave 
+on:click
+on:change
+on:keydown
+on:keyup
+on:focus
+on:blur
+on:mouseenter
+on:mouseleave
 ```
 
 ## Passing down other attributes
@@ -203,7 +202,6 @@ You can pass other attibutes as well.
 ## Import all
 
 Use `import * as Icon from 'svelte-circle-flags`.
-
 
 ```html
 <script>
