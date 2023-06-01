@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.8](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.7...v0.5.8) (2023-06-01)
+
+
+### Features
+
+* add prop role="img" ([142a6ee](https://github.com/shinokada/svelte-circle-flags/commit/142a6ee4e44766ec48a06e8048160da39e6b4eb5))
+
 ### [0.5.7](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.6...v0.5.7) (2023-06-01)
 
 ### Features
