@@ -1,5 +1,6 @@
 <script>
   export let size = '24';
+  export let role = 'img';
   export let ariaLabel = 'flag of ru ta';
 </script>
 
@@ -9,6 +10,7 @@
   height={size}
   class={$$props.class}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   on:click
   on:keydown
@@ -32,6 +34,7 @@
 [Go to Document](https://svelte-circle-flags.codewithshin.com/)
 ## Props
 @prop size = '24';
+@prop role = 'img';
 @prop ariaLabel = 'icon file name';
 ## Event
 - on:click

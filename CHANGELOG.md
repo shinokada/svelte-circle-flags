@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.5.7](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.6...v0.5.7) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([bd103a8](https://github.com/shinokada/svelte-circle-flags/commit/bd103a8d0298fdf4583294999dca90baa868c49a))
+- add || ^4.0.0 to peerDependencies ([bd103a8](https://github.com/shinokada/svelte-circle-flags/commit/bd103a8d0298fdf4583294999dca90baa868c49a))
 
 ### [0.5.6](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.5...v0.5.6) (2023-05-30)
 
-
 ### Bug Fixes
 
-* doc link ([11cac8e](https://github.com/shinokada/svelte-circle-flags/commit/11cac8ed2518cd7d3b7c264ccab661b0eb71bd99))
+- doc link ([11cac8e](https://github.com/shinokada/svelte-circle-flags/commit/11cac8ed2518cd7d3b7c264ccab661b0eb71bd99))
 
 ### [0.5.5](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.4...v0.5.5) (2023-05-30)
 
