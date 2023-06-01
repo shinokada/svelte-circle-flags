@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.7](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.6...v0.5.7) (2023-06-01)
+
+
+### Features
+
+* add || ^4.0.0 to peerDependencies ([bd103a8](https://github.com/shinokada/svelte-circle-flags/commit/bd103a8d0298fdf4583294999dca90baa868c49a))
+
 ### [0.5.6](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.5...v0.5.6) (2023-05-30)
 
 
