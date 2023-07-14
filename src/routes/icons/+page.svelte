@@ -33,7 +33,7 @@
   <Tabs style="pill" {contentClass} class="p-4">
     <TabItem open>
       <span slot="title" class="text-lg">Mono</span>
-      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
+      <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
         {#each filteredEntries as [name, component]}
           <div class="flex gap-4 items-center text-lg">
             <svelte:component this={component} class="shrink-0 h-12 w-12" />
