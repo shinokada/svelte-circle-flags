@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-circle-flags/issues",
-  "homepage": "https://svelte-circle-flags.codewithshin.com",
+  "homepage": "https://svelte-circle-flags.vercel.app",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",
