@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.11](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.10...v0.5.11) (2023-07-20)
+
+
+### Features
+
+* add size range ([63bd72a](https://github.com/shinokada/svelte-circle-flags/commit/63bd72aaf7c1176c3ffe100d31c51efb6f056b5b))
+* update layout ([a226ebf](https://github.com/shinokada/svelte-circle-flags/commit/a226ebf8b67e5d8327c076afb3efe0c9cf7014d4))
+
+
+### Bug Fixes
+
+* homepage update ([1c50528](https://github.com/shinokada/svelte-circle-flags/commit/1c50528845e0cc7429d1860f1729aa5d4f179b14))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([ccd3750](https://github.com/shinokada/svelte-circle-flags/commit/ccd375015ae5c6fa0bc5cc4eebd52c544d8a9240))
+
 ### [0.5.10](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.9...v0.5.10) (2023-06-15)
 
 ### [0.5.9](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.8...v0.5.9) (2023-06-01)
