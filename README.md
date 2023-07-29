@@ -30,7 +30,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 ## Installation
 
 ```sh
-npm i -D svelte-circle-flags
+pnpm i -D svelte-circle-flags
 ```
 
 ## ISO 3166 Country Codes
