@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.12](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.11...v0.5.12) (2023-07-29)
+
+
+### Features
+
+* use two files ([efde16c](https://github.com/shinokada/svelte-circle-flags/commit/efde16c53ad72fcb5ecf7b25c02d7e71cd41086e))
+
 ### [0.5.11](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.10...v0.5.11) (2023-07-20)
 
 
