@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.5](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.4...v0.6.5) (2023-07-29)
+
+
+### Bug Fixes
+
+* update add-exports-to-package-json ([484a060](https://github.com/shinokada/svelte-circle-flags/commit/484a060093574ac6bebaa60c4eae0daf5fa903bf))
+
 ### [0.6.4](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.3...v0.6.4) (2023-07-29)
 
 
