@@ -1,7 +1,7 @@
 # Svelte Circle Flags
 
 <div class="flex gap-2 my-8">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" height="25" style="height: 25px !important;"></a>
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25" style="height: 25px !important;"></a>
 <a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-circle-flags" alt="npm" height="25" style="height: 25px !important;"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-circle-flags" alt="License" height="25" style="height: 25px !important;"></a>
@@ -42,47 +42,19 @@ Most of the flags follow the ISO 3166 country codes.
 
 ```html
 <script>
-  import { Us } from 'svelte-circle-flags';
+  import { Icon } from 'svelte-circle-flags';
 </script>
 
-<Us />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
-```html
-<script>
-  import Us from 'svelte-circle-flags/Us.svelte';
-</script>
-
-<Us />
-```
-
-If you are a TypeScript user, **install version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<Icon name="us" />
 ```
 
 ## Props
 
-- size = '24';
-- role = 'img';
-- ariaLabel = 'icon file name';
+- @prop name;
+- @prop width = "512";
+- @prop height = "512";
+- @prop role = 'img';
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
@@ -93,21 +65,13 @@ If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, o
 Use the `size` prop to change the flag sizes.
 
 ```html
-<script>
-  import { Us, Ca, Fr } from 'svelte-circle-flags';
-</script>
-
-<div>
-  <Us size="200" />
-  <Ca size="200" />
-  <Fr size="200" />
-</div>
+<Icon name="us" width="100" height="100" />
 ```
 
 If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<Us class="shrink-0 h-20 w-20" />
+<Icon name="us" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS frameworks support
@@ -117,22 +81,22 @@ You can apply CSS framework color and other attributes directly to the icon comp
 Tailwind CSS example:
 
 ```html
-<Us class="rounded-full bg-white h-40 w-40 ring-2 ring-gray-300 m-4" />
+<Icon name="us" class="rounded-full bg-white h-40 w-40 ring-2 ring-gray-300 m-4" />
 ```
 
 Bootstrap example:
 
 ```html
-<Us class="position-absolute top-0 px-1" />
+<Icon name="us" class="position-absolute top-0 px-1" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `Us` has `aria-label="flag of us"`.
+All icons have aria-label. For example `us` has `aria-label="us"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<Us ariaLabel="United States of America" />
+<Icon name="us" ariaLabel="flag of United States of America" />
 ```
 
 ## Unfocusable icon
@@ -140,7 +104,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<Us tabindex="-1" />
+<Icon name="us" tabindex="-1" />
 ```
 
 ## Event forwarding
@@ -162,53 +126,46 @@ The following events are forwarded:
 You can pass other attibutes as well.
 
 ```html
-<Us tabindex="0" />
+<Icon name="us" tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { Ca } from 'svelte-circle-flags';
-</script>
-
-<svelte:component this="{Ca}" />
+<svelte:component this="{Icon}" name="us" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { Us } from 'svelte-circle-flags';
+  import { Icon } from 'svelte-circle-flags';
   import { onMount } from 'svelte';
   const props = {
+    name: 'us',
     size: '50',
-    color: '#ff0000'
   };
   onMount(() => {
-    const icon = new Us({ target: document.body, props });
+    const icon = new Icon({ target: document.body, props });
   });
 </script>
 ```
 
 ## Import all
 
-Use `import * as Icon from 'svelte-circle-flags`.
+Use `import {Icon, icons} from 'svelte-circle-flags`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-circle-flags';
+  import {Icon, icons} from 'svelte-circle-flags';
 </script>
-<h1>Size</h1>
-<Icon.Fr size="30" />
-<Icon.De size="40" />
 
-<h1>CSS HEX color</h1>
-<Icon.Dk color="#c61515" size="40" />
-
-<h1>Tailwind CSS</h1>
-<Icon.Jp class="text-blue-500" />
-<Icon.No class="text-pink-700" />
+{#each Object.keys(icons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <Icon name={name} bind:width={size} bind:height={size} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons

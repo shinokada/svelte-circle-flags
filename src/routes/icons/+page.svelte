@@ -3,14 +3,16 @@
   import Range from 'flowbite-svelte/Range.svelte';
   import TableSearch from 'flowbite-svelte/TableSearch.svelte';
 
-  import * as Icons from '$lib';
+  import Icon from '$lib/Icon.svelte';
+  import icons from '$lib/icons.js';
 
   const contentClass = 'rounded-lg dark:bg-zinc-700 mt-4';
   let searchTerm = '';
 
-  $: filteredEntries = Object.entries(Icons).filter(([name, component]) => {
+  $: filteredIconNames = Object.keys(icons).filter(name => {
     return name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1;
   });
+
   let size= "24";
 </script>
 <h1>Svelte Circle Flags: Icons</h1>
@@ -24,12 +26,12 @@
   <Label class="text-lg py-4 ">Icon size: {size}</Label>
   <Range id="range1" min="20" max="50" bind:value={size} />
 </div>
-  <div class="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white">
-    {#each filteredEntries as [name, component]}
-      <div class="flex gap-4 items-center text-lg">
-        <svelte:component this={component} class="shrink-0" bind:size={size} />
-        {name}
-      </div>
-    {/each}
+<div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-4 dark:text-white pt-8 ">
+  {#each filteredIconNames as iconName, i}
+  <div class="flex gap-4 items-center text-lg">
+    <Icon name={iconName} bind:width={size} bind:height={size} class="shrink-0" />
+    {iconName}
   </div>
+  {/each}
+</div>
 </TableSearch>
