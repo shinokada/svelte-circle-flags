@@ -1,6 +1,6 @@
 {
   "name": "svelte-circle-flags",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "SVG circle flag icon components for Svelte",
   "author": {
     "name": "Shinichi Okada",
