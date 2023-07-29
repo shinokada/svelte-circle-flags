@@ -33,7 +33,7 @@ viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-cssgg-icons/)
+[Go to Document](https://shinokada.github.io/svelte-circle-flags/)
 ## Props
 @prop name;
 @prop width = "512";
