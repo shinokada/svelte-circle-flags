@@ -33,7 +33,7 @@ viewBox="0 0 {displayIcon.box} {displayIcon.box}"
 
 <!--
 @component
-[Go to Document](https://shinokada.github.io/svelte-circle-flags/)
+[Go to Document](https://svelte-circle-flags.vercel.app/)
 ## Props
 @prop name;
 @prop width = "512";
