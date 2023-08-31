@@ -8,31 +8,27 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.6](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.5...v0.6.6) (2023-07-31)
 
-
 ### Bug Fixes
 
-* component doc update ([8e76aa2](https://github.com/shinokada/svelte-circle-flags/commit/8e76aa2bbaab9abb265c81dee1ded5bbc190149f))
+- component doc update ([8e76aa2](https://github.com/shinokada/svelte-circle-flags/commit/8e76aa2bbaab9abb265c81dee1ded5bbc190149f))
 
 ### [0.6.5](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.4...v0.6.5) (2023-07-29)
 
-
 ### Bug Fixes
 
-* update add-exports-to-package-json ([484a060](https://github.com/shinokada/svelte-circle-flags/commit/484a060093574ac6bebaa60c4eae0daf5fa903bf))
+- update add-exports-to-package-json ([484a060](https://github.com/shinokada/svelte-circle-flags/commit/484a060093574ac6bebaa60c4eae0daf5fa903bf))
 
 ### [0.6.4](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.3...v0.6.4) (2023-07-29)
 
-
 ### Bug Fixes
 
-* add main to package.json ([77888eb](https://github.com/shinokada/svelte-circle-flags/commit/77888eb433baeb7a3c49c8e81cd2024d33e3fdbc))
+- add main to package.json ([77888eb](https://github.com/shinokada/svelte-circle-flags/commit/77888eb433baeb7a3c49c8e81cd2024d33e3fdbc))
 
 ### [0.6.3](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.2...v0.6.3) (2023-07-29)
 
-
 ### Bug Fixes
 
-* component doc update ([6be7271](https://github.com/shinokada/svelte-circle-flags/commit/6be72719b4a890c307288edde21ddd9fb19067cc))
+- component doc update ([6be7271](https://github.com/shinokada/svelte-circle-flags/commit/6be72719b4a890c307288edde21ddd9fb19067cc))
 
 ### [0.6.2](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.1...v0.6.2) (2023-07-29)
 
@@ -40,24 +36,21 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.5.12](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.11...v0.5.12) (2023-07-29)
 
-
 ### Features
 
-* use two files ([efde16c](https://github.com/shinokada/svelte-circle-flags/commit/efde16c53ad72fcb5ecf7b25c02d7e71cd41086e))
+- use two files ([efde16c](https://github.com/shinokada/svelte-circle-flags/commit/efde16c53ad72fcb5ecf7b25c02d7e71cd41086e))
 
 ### [0.5.11](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.10...v0.5.11) (2023-07-20)
 
-
 ### Features
 
-* add size range ([63bd72a](https://github.com/shinokada/svelte-circle-flags/commit/63bd72aaf7c1176c3ffe100d31c51efb6f056b5b))
-* update layout ([a226ebf](https://github.com/shinokada/svelte-circle-flags/commit/a226ebf8b67e5d8327c076afb3efe0c9cf7014d4))
-
+- add size range ([63bd72a](https://github.com/shinokada/svelte-circle-flags/commit/63bd72aaf7c1176c3ffe100d31c51efb6f056b5b))
+- update layout ([a226ebf](https://github.com/shinokada/svelte-circle-flags/commit/a226ebf8b67e5d8327c076afb3efe0c9cf7014d4))
 
 ### Bug Fixes
 
-* homepage update ([1c50528](https://github.com/shinokada/svelte-circle-flags/commit/1c50528845e0cc7429d1860f1729aa5d4f179b14))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([ccd3750](https://github.com/shinokada/svelte-circle-flags/commit/ccd375015ae5c6fa0bc5cc4eebd52c544d8a9240))
+- homepage update ([1c50528](https://github.com/shinokada/svelte-circle-flags/commit/1c50528845e0cc7429d1860f1729aa5d4f179b14))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([ccd3750](https://github.com/shinokada/svelte-circle-flags/commit/ccd375015ae5c6fa0bc5cc4eebd52c544d8a9240))
 
 ### [0.5.10](https://github.com/shinokada/svelte-circle-flags/compare/v0.5.9...v0.5.10) (2023-06-15)
 

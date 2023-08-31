@@ -1,53 +1,26 @@
-<script>
-  import icons from './icons.js'
-
-  export let name;
-  export let width = "512";
-  export let height = "512";
-  export let role = 'img';
-  export let ariaLabel = name;
-  
-  $: displayIcon = icons[name]
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  export let icon: ComponentType;
+  export let size: number = 24;
+  export let role: string = 'img';
+  export let ariaLabel: string = 'Icon';
 </script>
-<svg
-xmlns="http://www.w3.org/2000/svg"
-{width}
-{height}
-{role}
-aria-label={ariaLabel}
-{...$$restProps}
-class={$$props.class}
-on:click
-on:keydown
-on:keyup
-on:focus
-on:blur
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-viewBox="0 0 {displayIcon.box} {displayIcon.box}"
->
-  {@html displayIcon.svg}
-</svg>
+
+<svelte:component
+  this={icon}
+  {...$$restProps}
+  {role}
+  {size}
+  class={$$props.class}
+  aria-label={ariaLabel}
+/>
 
 <!--
 @component
-[Go to Document](https://svelte-circle-flags.vercel.app/)
+[Go to docs](https://svelte-circle-flags.vercel.app)
 ## Props
-@prop name;
-@prop width = "512";
-@prop height = "512";
-@prop role = 'img';
-@prop ariaLabel='icon name'
-## Event
-- on:click
-- on:keydown
-- on:keyup
-- on:focus
-- on:blur
-- on:mouseenter
-- on:mouseleave
-- on:mouseover
-- on:mouseout
+@prop export let icon: ComponentType;
+@prop export let size: number = 24;
+@prop export let role: string = 'img';
+@prop export let ariaLabel: string = 'Icon';
 -->
