@@ -146,6 +146,7 @@ export { default as Hn } from './Hn.svelte';
 export { default as Hr } from './Hr.svelte';
 export { default as Ht } from './Ht.svelte';
 export { default as Hu } from './Hu.svelte';
+export { default as Icon } from './Icon.svelte';
 export { default as Id } from './Id.svelte';
 export { default as IdJb } from './IdJb.svelte';
 export { default as IdJt } from './IdJt.svelte';

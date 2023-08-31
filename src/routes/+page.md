@@ -12,7 +12,6 @@
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
 
-
 ## Repo
 
 [GitHub Repo](https://github.com/shinokada/svelte-circle-flags)
