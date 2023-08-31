@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.2](https://github.com/shinokada/svelte-circle-flags/compare/v0.7.1...v0.7.2) (2023-08-31)
+
+
+### Bug Fixes
+
+* add Icon to index.js ([195da79](https://github.com/shinokada/svelte-circle-flags/commit/195da791fa78fd315a20046b8118966497e7e88f))
+
 ### [0.7.1](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.8...v0.7.1) (2023-08-31)
 
 ### Features
