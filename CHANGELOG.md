@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.1](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.8...v0.7.1) (2023-08-31)
+
+
+### Features
+
+* smaller compiled size and Icon component ([3b7724d](https://github.com/shinokada/svelte-circle-flags/commit/3b7724da0860bfc47716cfff0768a37286faf587))
+
 ### [0.6.8](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.7...v0.6.8) (2023-08-03)
 
 ### [0.6.7](https://github.com/shinokada/svelte-circle-flags/compare/v0.6.6...v0.6.7) (2023-07-31)
