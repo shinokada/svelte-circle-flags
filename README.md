@@ -59,24 +59,6 @@ If you need only a few icons from this library in your Svelte app, import them d
 <Us />
 ```
 
-If you are a TypeScript user, **install version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
-```
-
 ## Props
 
 - size = '24';
@@ -108,6 +90,96 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 ```html
 <Us class="shrink-0 h-20 w-20" />
 ```
+
+
+## Creating a Default Global Icon Setting in Svelte
+
+You can create a config file, `/src/lib/icon.config.json`.
+
+The `Icon` component serves as a wrapper for svelte:component, allowing you to establish a global default setting or expand the capabilities of a component.
+
+To create a default global icon setting, follow these steps:
+
+### Configuration File
+
+Start by creating a configuration file named `/src/lib/icon.config.json` with the following structure:
+
+```json
+{
+  "config1": {
+    "size": 40,
+  },
+  "config2": {
+    "size": 50,
+  }
+}
+```
+
+In this JSON file, you can define different configurations (config1 and config2 in this case) for your icons, specifying attributes like size, variation, and color.
+
+### Implementation
+
+In your Svelte page file, make use of the configurations from the JSON file:
+
+```html
+<script lang="ts">
+  type IconConfig = {
+    config1: {
+      size: number;
+    };
+    config2: {
+      size: number;
+    };
+  };
+  import config from '$lib/icon.config.json';
+  import { Icon, Us, Jp } from 'svelte-circle-flags';
+
+  const iconConfig: IconConfig = config;
+  const config1 = iconConfig.config1;
+  const config2 = iconConfig.config2;
+</script>
+
+<Icon {...config1} icon="{Us}" />
+<Icon {...config2} icon="{Jp}" />
+```
+
+We import the configurations from the JSON file and assign them to config1 and config2. We then utilize the Icon component with the spread attributes `{...config1}` and `{...config2}` to apply the respective configurations to each icon.
+
+### Custom Default Icon
+
+If you wish to create a custom default icon, you can follow these steps:
+
+Create a Svelte component named `src/lib/MyIcon.svelte`:
+
+```html
+<script lang="ts">
+  import type { ComponentType } from 'svelte';
+  const config = {
+    size: 30
+  };
+  import { Icon } from 'svelte-circle-flags';
+  export let icon: ComponentType;
+</script>
+
+<Icon {...config} {icon} />
+```
+
+This component, `MyIcon.svelte`, accepts an `icon` prop which you can use to pass in the specific icon component you want to display. The default configuration is also applied to the icon.
+
+### Implementation in a Page
+
+To use your custom default icon in a Svelte page, do the following:
+
+```html
+<script>
+  import MyIcon from '$lib/MyIcon.svelte';
+  import { Us } from 'svelte-circle-flags';
+</script>
+
+<MyIcon icon="{Us}" />
+```
+
+Here, we import the `MyIcon` component and the `Us` icon. By passing the `Us` icon to the `icon` prop of MyIcon, you apply the default configuration to the icon.
 
 ## CSS frameworks support
 
