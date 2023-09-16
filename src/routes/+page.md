@@ -1,16 +1,20 @@
+---
+layout: mainLayout
+---
+
 # Svelte Circle Flags
 
 <div class="flex gap-2 my-8">
-<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor" height="25" style="height: 25px !important;"></a>
-<a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-circle-flags" alt="npm" height="25" style="height: 25px !important;"></a>
-<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" height="25" style="height: 25px !important;"></a>
-<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-circle-flags" alt="License" height="25" style="height: 25px !important;"></a>
-<a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-circle-flags.svg" alt="npm" height="25" style="height: 25px !important;"></a>
+<a href="https://github.com/sponsors/shinokada" target="_blank"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="sponsor"></a>
+<a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/v/svelte-circle-flags" alt="npm" ></a>
+<a href="https://twitter.com/shinokada" rel="nofollow" target="_blank"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada" ></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow" target="_blank"><img src="https://img.shields.io/github/license/shinokada/svelte-circle-flags" alt="License" ></a>
+<a href="https://www.npmjs.com/package/svelte-circle-flags" rel="nofollow" target="_blank"><img src="https://img.shields.io/npm/dw/svelte-circle-flags.svg" alt="npm" ></a>
 </div>
 
 360+ SVG icons from Circle-Flags
 
-Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on GitHub: https://github.com/sponsors/shinokada. Your support helps me maintain and improve this package for the benefit of the community.
+Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me [on GitHub](https://github.com/sponsors/shinokada). Your support helps me maintain and improve this package for the benefit of the community.
 
 ## Repo
 
@@ -29,7 +33,7 @@ Thank you for considering my open-source package. If you use it in a commercial 
 ## Installation
 
 ```sh
-npm i -D svelte-circle-flags
+pnpm i -D svelte-circle-flags
 ```
 
 ## ISO 3166 Country Codes
@@ -91,7 +95,6 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 <Us class="shrink-0 h-20 w-20" />
 ```
 
-
 ## Creating a Default Global Icon Setting in Svelte
 
 You can create a config file, `/src/lib/icon.config.json`.
@@ -107,10 +110,10 @@ Start by creating a configuration file named `/src/lib/icon.config.json` with th
 ```json
 {
   "config1": {
-    "size": 40,
+    "size": 40
   },
   "config2": {
-    "size": 50,
+    "size": 50
   }
 }
 ```

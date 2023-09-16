@@ -48,54 +48,56 @@
   }}
 />
 
-<header class="flex-none w-full mx-auto bg-white dark:bg-zinc-700">
-  <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-zinc-700 ">
-    <NavBrand href="/">
-      <span
-        class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"
+<div class="max-h-screen overflow-auto relative w-full">
+  <header class="flex-none w-full mx-auto bg-white dark:bg-zinc-700">
+    <Navbar color="default" fluid let:hidden let:toggle class="dark:bg-zinc-700 ">
+      <NavBrand href="/">
+        <span
+          class="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500"
+        >
+          {title}
+        </span>
+      </NavBrand>
+      <NavUl
+        {hidden}
+        {divClass}
+        {ulClass}
+        on:click={() => setTimeout(toggle, 1)}
+        nonActiveClass="md:!pl-3 md:!py-2 lg:!pl-0 text-gray-700 hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 dark:text-white lg:dark:hover:text-primary-700 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
+        activeClass="md:!pl-3 md:!py-2 lg:!pl-0 lg:text-primary-700 text-white dark:text-white dark:lg:text-primary-500 bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
       >
-        {title}
-      </span>
-    </NavBrand>
-    <NavUl
-      {hidden}
-      {divClass}
-      {ulClass}
-      on:click={() => setTimeout(toggle, 1)}
-      nonActiveClass="md:!pl-3 md:!py-2 lg:!pl-0 text-gray-700 hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 dark:text-white lg:dark:hover:text-primary-700 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
-      activeClass="md:!pl-3 md:!py-2 lg:!pl-0 lg:text-primary-700 text-white dark:text-white dark:lg:text-primary-500 bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
-    >
-      <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
-      <NavLi href="/icons" active={activeUrl === '/icons'}>Icons</NavLi>
-      <NavLi href="https://github.com/shinokada/svelte-circle-flags">GitHub</NavLi>
-      <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
-    </NavUl>
-    <div class="flex items-center ml-auto">
-      <DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
-    </div>
-    <NavHamburger on:click={toggle} btnClass="ml-3 m-0 lg:hidden" />
-  </Navbar>
-</header>
-<div class="mx-8 mb-16">
-  <slot />
-</div>
-
-<Footer footerType="logo" class="dark:bg-zinc-700">
-  <div class="sm:flex sm:items-center sm:justify-between">
-    <FooterBrand
-      href="https://svelte-circle-flags.vercel.app/"
-      name="Svelte Circle Flags"
-      classSpan="text-primary-700 dark:text-primary-500"
-    />
-    <FooterLinkGroup
-      ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
-    >
-      <FooterLink href="/">Home</FooterLink>
-      <FooterLink href="/icons">Icons</FooterLink>
-      <FooterLink href="https://github.com/shinokada/svelte-circle-flags/blob/main/LICENSE"
-        >Licensing</FooterLink
-      >
-      <FooterLink href="https://github.com/shinokada/svelte-circle-flags/">GitHub</FooterLink>
-    </FooterLinkGroup>
+        <NavLi href="/" active={activeUrl === '/'}>Home</NavLi>
+        <NavLi href="/icons" active={activeUrl === '/icons'}>Icons</NavLi>
+        <NavLi href="https://github.com/shinokada/svelte-circle-flags">GitHub</NavLi>
+        <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
+      </NavUl>
+      <div class="flex items-center ml-auto">
+        <DarkMode class="inline-block dark:hover:text-white hover:text-gray-900" />
+      </div>
+      <NavHamburger on:click={toggle} btnClass="ml-3 m-0 lg:hidden" />
+    </Navbar>
+  </header>
+  <div class="mx-8 mb-16 relative">
+    <slot />
   </div>
-</Footer>
+
+  <Footer footerType="logo" class="dark:bg-zinc-700">
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <FooterBrand
+        href="https://svelte-circle-flags.vercel.app/"
+        name="Svelte Circle Flags"
+        classSpan="text-primary-700 dark:text-primary-500"
+      />
+      <FooterLinkGroup
+        ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0"
+      >
+        <FooterLink href="/">Home</FooterLink>
+        <FooterLink href="/icons">Icons</FooterLink>
+        <FooterLink href="https://github.com/shinokada/svelte-circle-flags/blob/main/LICENSE"
+          >Licensing</FooterLink
+        >
+        <FooterLink href="https://github.com/shinokada/svelte-circle-flags/">GitHub</FooterLink>
+      </FooterLinkGroup>
+    </div>
+  </Footer>
+</div>
