@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.4](https://github.com/shinokada/svelte-circle-flags/compare/v0.7.3...v0.7.4) (2023-09-16)
 
-
 ### Features
 
-* add context ([de527c7](https://github.com/shinokada/svelte-circle-flags/commit/de527c7c0d20c988bd75faaa9b552532224d53dd))
+- add context ([de527c7](https://github.com/shinokada/svelte-circle-flags/commit/de527c7c0d20c988bd75faaa9b552532224d53dd))
 
 ### [0.7.3](https://github.com/shinokada/svelte-circle-flags/compare/v0.7.2...v0.7.3) (2023-08-31)
 
