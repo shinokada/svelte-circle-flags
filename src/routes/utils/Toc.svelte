@@ -1,9 +1,4 @@
 <script lang="ts">
-  /*  
-    Inspired by 'svelte-toc'
-    Simplified version of Table of Contents.
-    */
-  // import type { LinkType } from '$lib/types';
   interface LinkType {
     name: string;
     href?: string;
