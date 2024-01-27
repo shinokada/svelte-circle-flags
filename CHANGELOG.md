@@ -4,15 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.1.0](https://github.com/shinokada/svelte-circle-flags/compare/v0.7.4...v1.1.0) (2024-01-27)
 
-
 ### Features
 
-* add data-sveltekit-reload to Home link so that it reloads sidebar menu and afterNavigate scrollTo in the +layout.svelte ([aa2e6da](https://github.com/shinokada/svelte-circle-flags/commit/aa2e6da80b5033869748a9bbee713ef2ff7eefe9))
-
+- add data-sveltekit-reload to Home link so that it reloads sidebar menu and afterNavigate scrollTo in the +layout.svelte ([aa2e6da](https://github.com/shinokada/svelte-circle-flags/commit/aa2e6da80b5033869748a9bbee713ef2ff7eefe9))
 
 ### Bug Fixes
 
-* NavHamburger class="ml-3 m-0 lg:hidden md:block" ([3837c0b](https://github.com/shinokada/svelte-circle-flags/commit/3837c0bc03faf467469a640c48101c67a5b0451e))
+- NavHamburger class="ml-3 m-0 lg:hidden md:block" ([3837c0b](https://github.com/shinokada/svelte-circle-flags/commit/3837c0bc03faf467469a640c48101c67a5b0451e))
 
 ### [0.7.4](https://github.com/shinokada/svelte-circle-flags/compare/v0.7.3...v0.7.4) (2023-09-16)
 
