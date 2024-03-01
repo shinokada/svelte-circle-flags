@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/shinokada/svelte-circle-flags/compare/v1.1.1...v1.1.2) (2024-03-01)
+
+
+### Bug Fixes
+
+* @typescript-eslint/eslint-plugin update ([ae1d8d8](https://github.com/shinokada/svelte-circle-flags/commit/ae1d8d815534ec0498f849ecbf291b3d0c213007))
+
 ### [1.1.1](https://github.com/shinokada/svelte-circle-flags/compare/v1.1.0...v1.1.1) (2024-03-01)
 
 ## [1.1.0](https://github.com/shinokada/svelte-circle-flags/compare/v0.7.4...v1.1.0) (2024-01-27)
